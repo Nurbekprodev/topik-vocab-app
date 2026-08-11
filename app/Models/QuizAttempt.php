@@ -8,7 +8,13 @@ use App\Models\User;
 use App\Models\Quiz;
 
 class QuizAttempt extends Model
-{
+{protected $fillable = [
+    'user_id',
+    'quiz_id',
+    'score',
+    'total_questions',
+    'completed_at',
+];
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);

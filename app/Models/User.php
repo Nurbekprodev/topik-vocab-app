@@ -9,7 +9,12 @@ use App\Models\UserGrammarProgress;
 
 class User extends Authenticatable
 {
-    public function vocabularyProgress(): HasMany
+    protected $fillable = [
+        'name',
+        'email',
+        'password',
+    ];
+        public function vocabularyProgress(): HasMany
     {
         return $this->hasMany(UserVocabularyProgress::class);
     }

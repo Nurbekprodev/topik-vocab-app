@@ -8,6 +8,12 @@ use App\Models\Grammar;
 
 class GrammarExample extends Model
 {
+    protected $fillable = [
+        'grammar_id',
+        'korean_sentence',
+        'english_translation',
+    ];
+
     public function grammar(): BelongsTo
     {
         return $this->belongsTo(Grammar::class);

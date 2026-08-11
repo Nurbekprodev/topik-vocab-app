@@ -11,18 +11,18 @@ return new class extends Migration
      */
     public function up(): void
     {
-Schema::create('vocabulary_examples', function (Blueprint $table) {
-    $table->id();
+        Schema::create('vocabulary_examples', function (Blueprint $table) {
+            $table->id();
 
-    $table->foreignId('vocabulary_id')
-          ->constrained()
-          ->cascadeOnDelete();
+            $table->foreignId('vocabulary_id')
+                ->constrained()
+                ->cascadeOnDelete();
 
-    $table->text('korean_sentence');
-    $table->text('english_translation');
+            $table->text('korean_sentence');
+            $table->text('english_translation');
 
-    $table->timestamps();
-});
+            $table->timestamps();
+        });
     }
 
     /**

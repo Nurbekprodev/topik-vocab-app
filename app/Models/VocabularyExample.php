@@ -8,8 +8,14 @@ use App\Models\Vocabulary;
 
 class VocabularyExample extends Model
 {
+    protected $fillable = [
+        'vocabulary_id',
+        'korean_sentence',
+        'english_translation',
+    ];
     public function vocabulary(): BelongsTo
     {
+
         return $this->belongsTo(Vocabulary::class);
     }
 }

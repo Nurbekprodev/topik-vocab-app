@@ -11,6 +11,13 @@ use App\Models\QuizAttempt;
 
 class Quiz extends Model
 {
+    protected $fillable = [
+        'grammar_id',
+        'title',
+        'type',
+        'level',
+    ];
+
     public function grammar(): BelongsTo
     {
         return $this->belongsTo(Grammar::class);

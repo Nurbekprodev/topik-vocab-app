@@ -9,6 +9,14 @@ use App\Models\UserVocabularyProgress;
 
 class Vocabulary extends Model
 {
+    protected $fillable = [
+        'korean_word',
+        'english_meaning',
+        'word_type',
+        'level',
+        'difficulty',
+    ];
+
     public function examples(): HasMany
     {
         return $this->hasMany(VocabularyExample::class);

@@ -10,6 +10,19 @@ use App\Models\Quiz;
 
 class Grammar extends Model
 {
+    protected $fillable = [
+        'title',
+        'meaning',
+        'explanation',
+        'level',
+        'order_number',
+        'structure',
+        'rules',
+        'usage_notes',
+        'commonly_used_with',
+        'common_mistakes',
+    ];
+
     public function examples(): HasMany
     {
         return $this->hasMany(GrammarExample::class);

@@ -8,6 +8,17 @@ use App\Models\Quiz;
 
 class QuizQuestion extends Model
 {
+protected $fillable = [
+    'quiz_id',
+    'question',
+    'option_a',
+    'option_b',
+    'option_c',
+    'option_d',
+    'correct_answer',
+    'explanation',
+];
+
     public function quiz(): BelongsTo
     {
         return $this->belongsTo(Quiz::class);

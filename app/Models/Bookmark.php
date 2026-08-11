@@ -10,6 +10,11 @@ use App\Models\Grammar;
 
 class Bookmark extends Model
 {
+    protected $fillable = [
+        'user_id',
+        'vocabulary_id',
+        'grammar_id',
+    ];
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);

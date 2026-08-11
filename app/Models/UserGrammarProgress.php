@@ -9,6 +9,14 @@ use App\Models\Grammar;
 
 class UserGrammarProgress extends Model
 {
+    protected $fillable = [
+    'user_id',
+    'grammar_id',
+    'status',
+    'mastery_score',
+    'last_studied_at',
+];
+
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);

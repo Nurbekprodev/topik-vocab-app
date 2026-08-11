@@ -9,6 +9,16 @@ use App\Models\Vocabulary;
 
 class UserVocabularyProgress extends Model
 {
+    protected $fillable = [
+        'user_id',
+        'vocabulary_id',
+        'status',
+        'correct_count',
+        'wrong_count',
+        'last_reviewed_at',
+        'next_review_at',
+    ];
+
     public function user(): BelongsTo
     {
         return $this->belongsTo(User::class);
