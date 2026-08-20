@@ -53,9 +53,20 @@ class QuizController extends Controller
                 ]
             );
 
+            $nextGrammar = Grammar::where('level', $quiz->grammar->level)
+                ->where('order_number', '>', $quiz->grammar->order_number)
+                ->orderBy('order_number')
+                ->first();
+
+            if ($nextGrammar) {
+                return redirect()
+                    ->route('grammar.learn', ['grammar' => $nextGrammar->id])
+                    ->with('success', 'Grammar completed!');
+            }
+
             return redirect()
-                ->route('grammar.learn')
-                ->with('success', 'Grammar completed!');
+                ->route('grammar.index', ['level' => $quiz->grammar->level])
+                ->with('success', 'You completed this level!');
         }
 
         return back()->with('error', 'Incorrect answer. Try again.');
@@ -104,7 +115,61 @@ class QuizController extends Controller
         return view('quiz.vocabulary.custom');
     }
 
-    public function customStart(Request $request){
-        dd($request->all());
+    public function customStart(Request $request)
+{
+    $words = Vocabulary::where('level', $request->level)
+        ->where('difficulty', $request->difficulty)
+        ->inRandomOrder()
+        ->take($request->question_count)
+        ->get();
+
+    $questions = [];
+
+    foreach ($words as $word) {
+
+        $wrongAnswers = Vocabulary::where('id', '!=', $word->id)
+            ->inRandomOrder()
+            ->take(3)
+            ->pluck('english_meaning')
+            ->toArray();
+
+        $options = array_merge(
+            [$word->english_meaning],
+            $wrongAnswers
+        );
+
+        shuffle($options);
+
+        $questions[] = [
+            'word_id' => $word->id,
+            'korean_word' => $word->korean_word,
+            'correct_answer' => $word->english_meaning,
+            'options' => $options,
+        ];
     }
+
+    return view('quiz.vocabulary.play', compact('questions'));
+}
+
+public function result(Request $request)
+{
+    $score = 0;
+
+    foreach ($request->answers as $wordId => $answer) {
+
+        if (
+            isset($request->correct_answers[$wordId]) &&
+            $answer === $request->correct_answers[$wordId]
+        ) {
+            $score++;
+        }
+    }
+
+    $total = count($request->correct_answers);
+
+    return view(
+        'quiz.vocabulary.result',
+        compact('score', 'total')
+    );
+}
 }

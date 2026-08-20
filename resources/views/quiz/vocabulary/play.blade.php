@@ -10,7 +10,8 @@
         Recommended Vocabulary Quiz
     </h1>
 
-    <form>
+    <form method="POST" action="{{ route('quiz.vocabulary.result') }}">
+        @csrf
 
         @foreach($questions as $index => $question)
 
@@ -26,13 +27,19 @@
                     </h2>
                 </div>
 
+                <input
+                    type="hidden"
+                    name="correct_answers[{{ $question['word_id'] }}]"
+                    value="{{ $question['correct_answer'] }}"
+                >
+
                 @foreach($question['options'] as $option)
 
                     <label class="block mb-2">
 
                         <input
                             type="radio"
-                            name="question_{{ $question['word_id'] }}"
+                            name="answers[{{ $question['word_id'] }}]"
                             value="{{ $option }}"
                         >
 

@@ -16,6 +16,9 @@ Route::get('/vocabulary/learn', [VocabularyController::class, 'learn'])
     ->name('vocabulary.learn');
 Route::post('/vocabulary/mark', [VocabularyController::class, 'mark'])
     ->name('vocabulary.mark');
+Route::post('/quiz/vocabulary/result', [QuizController::class, 'result'])
+    ->name('quiz.vocabulary.result');
+
 
 Route::post('/bookmarks', [VocabularyController::class, 'bookmark'])
     ->name('bookmarks.store');
@@ -24,11 +27,13 @@ Route::get('/bookmarks', [BookmarkController::class, 'index'])
 Route::delete('/bookmarks/{bookmark}', [BookmarkController::class, 'destroy'])
     ->name('bookmarks.destroy');
 
+
 Route::get('/grammar', [GrammarController::class, 'index'])->name('grammar.index');
-Route::get('/grammar/learn', [GrammarController::class, 'learn'])
+Route::get('/grammar/{grammar}/learn', [GrammarController::class, 'learn'])
     ->name('grammar.learn');
 Route::get('/grammar/{grammar}/quiz', [QuizController::class, 'show'])
     ->name('grammar.quiz');
+
 
 Route::get('/quiz', [QuizController::class, 'index'])->name('quiz.index');
 Route::post('/quiz/{quiz}/submit', [QuizController::class, 'submit'])
