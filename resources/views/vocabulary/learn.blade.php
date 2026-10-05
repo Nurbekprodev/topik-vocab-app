@@ -4,36 +4,60 @@
 
 @section('content')
 
-<h1>{{ $word->korean_word }}</h1>
+<div class="flex flex-col w-full items-center h-screen">
+    <div>
+        <div>
+            <h1>{{ $word->korean_word }}</h1>
+                <span class="text-sm bg-blue-50 text-blue-500 px-2 py-1 rounded  ">
+                    {{ $word->level }}
+                </span>
 
-<p>{{ $word->english_meaning }}</p>
+                <span class="text-sm bg-orange-50 px-2 py-1 rounded text-orange-600 ">
+                    {{ $word->word_type }}
+                </span>
+        </div>
 
-@foreach($word->examples as $example)
-    <p>{{ $example->korean_sentence }}</p>
-    <p>{{ $example->english_translation }}</p>
-@endforeach
+        <span>
+            <i class="fa-solid fa-volume-high"></i>
+        </span>
 
-<form action="{{ route('vocabulary.mark') }}" method="POST">
-    @csrf
-    <input type="hidden" name="vocabulary_id" value="{{ $word->id }}">
-    <input type="hidden" name="status" value="known">
+        <div>
+            <p>{{ $word->english_meaning }}</p>
 
-    <button type="submit">I Know</button>
-</form>
+            @foreach($word->examples as $example)
+                <p>{{ $example->korean_sentence }}</p>
+                <p>{{ $example->english_translation }}</p>
+            @endforeach
+        </div>
+    </div>
 
-<form action="{{ route('vocabulary.mark') }}" method="POST">
-    @csrf
-    <input type="hidden" name="vocabulary_id" value="{{ $word->id }}">
-    <input type="hidden" name="status" value="learning">
 
-    <button type="submit">I Don't Know</button>
-</form>
+    <div>
+        <form action="{{ route('vocabulary.mark') }}" method="POST">
+            @csrf
+            <input type="hidden" name="vocabulary_id" value="{{ $word->id }}">
+            <input type="hidden" name="status" value="known">
 
-<form action="{{ route('bookmarks.store') }}" method="POST">
-    @csrf
-    <input type="hidden" name="vocabulary_id" value="{{ $word->id }}">
+            <button type="submit">I Know</button>
+        </form>
 
-    <button type="submit">Bookmark</button>
-</form>
+        <form action="{{ route('vocabulary.mark') }}" method="POST">
+            @csrf
+            <input type="hidden" name="vocabulary_id" value="{{ $word->id }}">
+            <input type="hidden" name="status" value="learning">
+
+            <button type="submit">I Don't Know</button>
+        </form>
+
+        <form action="{{ route('bookmarks.store') }}" method="POST">
+            @csrf
+            <input type="hidden" name="vocabulary_id" value="{{ $word->id }}">
+
+            <button type="submit"><i class="fa-regular fa-bookmark text-gray-500 hover:text-blue-600 cursor-pointer "></i></button>
+        </form>
+    </div>
+</div>
+
+
 
 @endsection
