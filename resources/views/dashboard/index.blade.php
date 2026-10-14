@@ -39,6 +39,33 @@
 
     </div>
 
+    
+<form action="{{ route('vocabulary.learn') }}" method="GET"
+      class="space-y-3">
+    <label for="words" class="block font-medium text-gray-700">
+        Words per session
+    </label>
+
+    <select
+        id="words"
+        name="words"
+        class="w-full rounded-xl border border-gray-300 px-4 py-3"
+    >
+        <option value="10" selected>10 words (Recommended)</option>
+        <option value="5">5 words</option>
+        <option value="20">20 words</option>
+        <option value="30">30 words</option>
+    </select>
+
+    <button
+        type="submit"
+        class="w-full rounded-xl bg-blue-600 px-4 py-3 font-semibold text-white hover:bg-blue-700"
+    >
+        Start Learning
+    </button>
+</form>
+
+
     {{-- Continue Learning --}}
     <div>
         <h2 class="text-xl font-semibold mb-4">
