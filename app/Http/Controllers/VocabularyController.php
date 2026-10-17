@@ -9,12 +9,41 @@ use App\Models\Bookmark;
 
 class VocabularyController extends Controller
 {
-    public function index()
-    {
-        $vocabularies = Vocabulary::all();
+public function index(Request $request)
+{
+    $query = Vocabulary::query();
 
-        return view('vocabulary.index', compact('vocabularies'));
+    // Search Korean and English across the entire database.
+    if ($request->filled('q')) {
+        $search = $request->input('q');
+
+        $query->where(function ($q) use ($search) {
+            $q->where('korean_word', 'like', "%{$search}%")
+              ->orWhere('english_meaning', 'like', "%{$search}%");
+        });
     }
+
+    // Filter by TOPIK level or word type.
+    $filter = $request->input('filter', 'all');
+
+    if ($filter === 'topik 1') {
+        $query->where('level', 'like', '%TOPIK 1%');
+    } elseif ($filter === 'topik 2') {
+        $query->where('level', 'like', '%TOPIK 2%');
+    } elseif (in_array($filter, ['noun', 'verb', 'adjective'])) {
+        $query->where('word_type', 'like', $filter);
+    }
+
+    $totalWords = Vocabulary::count();
+
+    $vocabularies = $query->paginate(5)->withQueryString();
+
+    return view('vocabulary.index', compact(
+        'vocabularies',
+        'totalWords'
+    ));
+}
+
 
 
 public function learn(Request $request)

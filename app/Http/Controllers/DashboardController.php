@@ -18,7 +18,7 @@ class DashboardController extends Controller
         $totalWords = Vocabulary::count();
 
         $learnedWords = UserVocabularyProgress::where('user_id', $userId)
-            ->where('status', 'learned')
+            ->where('status', 'known')
             ->count();
 
         $bookmarkedWords = Bookmark::where('user_id', $userId)

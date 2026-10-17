@@ -45,3 +45,128 @@ document.addEventListener('click', (event) => {
         window.speechSynthesis.speak(utterance);
     }
 });
+
+
+// vocabulary learn page
+
+    function speakKorean(button) {
+        if (!('speechSynthesis' in window)) {
+            alert('Audio playback is not supported in this browser.');
+            return;
+        }
+
+        // Stop the previous sentence before playing another.
+        window.speechSynthesis.cancel();
+
+        const text = button.dataset.text;
+        const utterance = new SpeechSynthesisUtterance(text);
+
+        utterance.lang = 'ko-KR';
+        utterance.rate = 0.85;
+        utterance.pitch = 1;
+
+        const voices = window.speechSynthesis.getVoices();
+        const koreanVoice = voices.find(voice =>
+            voice.lang.toLowerCase().startsWith('ko')
+        );
+
+        if (koreanVoice) {
+            utterance.voice = koreanVoice;
+        }
+
+        window.speechSynthesis.speak(utterance);
+    }
+
+
+    // vocabulary main page
+    
+document.addEventListener('DOMContentLoaded', () => {
+    
+    const searchInput = document.getElementById('vocab-search');
+    const searchForm = document.getElementById('vocab-search-form');
+    const clearSearch = document.getElementById('clear-search');
+
+    if (searchInput && searchForm && clearSearch) {
+        const updateClearButton = () => {
+            clearSearch.classList.toggle(
+                'hidden',
+                searchInput.value.length === 0
+            );
+        };
+
+        searchInput.addEventListener('input', updateClearButton);
+
+        // Search automatically after the user stops typing.
+        let searchTimeout;
+
+        searchInput.addEventListener('input', () => {
+            clearTimeout(searchTimeout);
+
+            searchTimeout = setTimeout(() => {
+                searchForm.requestSubmit();
+            }, 400);
+        });
+
+        // Clear search and reload the complete list.
+        clearSearch.addEventListener('click', () => {
+            searchInput.value = '';
+            searchForm.requestSubmit();
+        });
+
+        updateClearButton();
+    }
+
+
+    // Expand and collapse vocabulary cards.
+    document.querySelectorAll('[data-expand]').forEach(button => {
+        button.addEventListener('click', () => {
+            const card = button.closest('[data-vocab-card]');
+
+            if (!card) return;
+
+            const details = card.querySelector('[data-details]');
+            const chevron = card.querySelector('[data-chevron]');
+
+            if (!details) return;
+
+            const isExpanded =
+                button.getAttribute('aria-expanded') === 'true';
+
+            button.setAttribute(
+                'aria-expanded',
+                String(!isExpanded)
+            );
+
+            details.classList.toggle('hidden', isExpanded);
+
+            if (chevron) {
+                chevron.classList.toggle('rotate-180', !isExpanded);
+            }
+        });
+    });
+
+    // Toggle bookmark appearance.
+    // This changes the UI only; persistent saving requires a backend.
+    document.querySelectorAll('[data-bookmark]').forEach(button => {
+        button.addEventListener('click', () => {
+            const isBookmarked =
+                button.getAttribute('aria-pressed') === 'true';
+
+            const icon = button.querySelector('[data-bookmark-icon]');
+
+            button.setAttribute(
+                'aria-pressed',
+                String(!isBookmarked)
+            );
+
+            if (icon) {
+                icon.classList.toggle('fa-solid', !isBookmarked);
+                icon.classList.toggle('fa-regular', isBookmarked);
+            }
+
+            button.classList.toggle('bg-indigo-50', !isBookmarked);
+            button.classList.toggle('text-indigo-600', !isBookmarked);
+            button.classList.toggle('text-slate-400', isBookmarked);
+        });
+    });
+});

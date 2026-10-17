@@ -25,52 +25,82 @@ class QuizController extends Controller
         return view('quiz.grammar.show', compact('quiz', 'grammar'));
     }
 
-    public function submit(Request $request, Quiz $quiz)
-    {
-        $question = $quiz->questions()->first();
+    
+public function submit(Request $request, Quiz $quiz)
+{
+    $questions = $quiz->questions;
 
-        $score = $request->answer === $question->correct_answer ? 1 : 0;
+    $validated = $request->validate([
+        'answers' => ['required', 'array'],
+        'answers.*' => ['required', 'string'],
+    ]);
 
-        QuizAttempt::create([
-            'user_id' => 1,
-            'quiz_id' => $quiz->id,
-            'score' => $score,
-            'total_questions' => 1,
-            'completed_at' => now(),
-        ]);
+    $score = 0;
 
-        if ($score === 1) {
+    foreach ($questions as $question) {
+        $selectedAnswer = $validated['answers'][$question->id] ?? null;
 
-            UserGrammarProgress::updateOrCreate(
-                [
-                    'user_id' => 1,
-                    'grammar_id' => $quiz->grammar_id,
-                ],
-                [
-                    'status' => 'completed',
-                    'mastery_score' => 100,
-                    'last_studied_at' => now(),
-                ]
-            );
+        if ($selectedAnswer === $question->correct_answer) {
+            $score++;
+        }
+    }
 
-            $nextGrammar = Grammar::where('level', $quiz->grammar->level)
-                ->where('order_number', '>', $quiz->grammar->order_number)
-                ->orderBy('order_number')
-                ->first();
+    $totalQuestions = $questions->count();
 
-            if ($nextGrammar) {
-                return redirect()
-                    ->route('grammar.learn', ['grammar' => $nextGrammar->id])
-                    ->with('success', 'Grammar completed!');
-            }
+    QuizAttempt::create([
+        'user_id' => 1,
+        'quiz_id' => $quiz->id,
+        'score' => $score,
+        'total_questions' => $totalQuestions,
+        'completed_at' => now(),
+    ]);
 
+    if ($score === $totalQuestions && $totalQuestions > 0) {
+        UserGrammarProgress::updateOrCreate(
+            [
+                'user_id' => 1,
+                'grammar_id' => $quiz->grammar_id,
+            ],
+            [
+                'status' => 'completed',
+                'mastery_score' => 100,
+                'last_studied_at' => now(),
+            ]
+        );
+
+        $nextGrammar = Grammar::where(
+            'level',
+            $quiz->grammar->level
+        )
+            ->where(
+                'order_number',
+                '>',
+                $quiz->grammar->order_number
+            )
+            ->orderBy('order_number')
+            ->first();
+
+        if ($nextGrammar) {
             return redirect()
-                ->route('grammar.index', ['level' => $quiz->grammar->level])
-                ->with('success', 'You completed this level!');
+                ->route('grammar.learn', [
+                    'grammar' => $nextGrammar->id,
+                ])
+                ->with('success', 'Grammar completed!');
         }
 
-        return back()->with('error', 'Incorrect answer. Try again.');
+        return redirect()
+            ->route('grammar.index', [
+                'level' => $quiz->grammar->level,
+            ])
+            ->with('success', 'You completed this level!');
     }
+
+    return back()->with(
+        'error',
+        "You scored {$score} out of {$totalQuestions}. Try again!"
+    );
+}
+
 
     public function recommended()
     {
