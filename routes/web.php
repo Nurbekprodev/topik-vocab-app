@@ -26,6 +26,8 @@ Route::get('/bookmarks', [BookmarkController::class, 'index'])
     ->name('bookmarks.index');
 Route::delete('/bookmarks/{bookmark}', [BookmarkController::class, 'destroy'])
     ->name('bookmarks.destroy');
+Route::post('/bookmarks/toggle', [BookmarkController::class, "toggle"])
+    ->name('bookmarks.toggle');
 
 
 Route::get('/grammar', [GrammarController::class, 'index'])->name('grammar.index');

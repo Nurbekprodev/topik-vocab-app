@@ -174,7 +174,7 @@
     </main>
 
     {{-- Fixed bottom actions --}}
-    <footer class="fixed inset-x-0 bottom-0 z-40 border-t border-slate-200 bg-white/95 shadow-[0_-8px_30px_rgba(15,23,42,0.04)] backdrop-blur">
+    <footer class="fixed inset-x-0 bottom-16 z-40 border-t border-slate-200 bg-white/95 shadow-[0_-8px_30px_rgba(15,23,42,0.04)] backdrop-blur">
         <div class="mx-auto max-w-xl px-4 pb-5 pt-4">
 
             {{-- Bookmark --}}

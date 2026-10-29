@@ -113,91 +113,112 @@
 
         {{-- Vocabulary list --}}
         <div id="vocab-list" class="space-y-3">
+         
+        
+        @foreach ($vocabularies as $vocabulary)
+            <article
+                data-vocab-card
+                data-korean="{{ $vocabulary->korean_word }}"
+                data-english="{{ $vocabulary->english_meaning }}"
+                data-level="{{ strtolower(str_replace(['_', '-'], ' ', $vocabulary->level)) }}"
+                data-type="{{ strtolower($vocabulary->word_type) }}"
+                class="overflow-hidden rounded-2xl border border-slate-200 bg-white transition hover:border-indigo-200 hover:shadow-sm"
+            >
+                {{-- Word --}}
+                <div class="flex items-start gap-3 p-4">
+                    <button
+                        type="button"
+                        data-expand
+                        aria-expanded="false"
+                        class="flex min-w-0 flex-1 items-start gap-3 text-left"
+                    >
+                        <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
+                            <i class="fa-solid fa-language text-lg"></i>
+                        </span>
 
-            @foreach ($vocabularies as $vocabulary)
-                <article
-                    data-vocab-card
-                    data-korean="{{ $vocabulary->korean_word }}"
-                    data-english="{{ $vocabulary->english_meaning }}"
-                    data-level="{{ strtolower(str_replace(['_', '-'], ' ', $vocabulary->level)) }}"
-                    data-type="{{ strtolower($vocabulary->word_type) }}"
-                    class="overflow-hidden rounded-2xl border border-slate-200/80 bg-white transition duration-200 hover:border-indigo-200 hover:shadow-md"
-                >
-                    {{-- Main card --}}
-                    <div class="flex items-start gap-3 p-4 sm:p-5">
-
-                        <button
-                            type="button"
-                            data-expand
-                            class="flex min-w-0 flex-1 items-start gap-3 text-left"
-                            aria-expanded="false"
-                        >
-                            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-indigo-50 text-indigo-600">
-                                <i class="fa-solid fa-language text-lg"></i>
-                            </span>
-
-                            <span class="min-w-0 flex-1 pt-0.5">
-                                <span class="block break-words text-xl font-bold tracking-tight text-slate-900">
+                        <span class="min-w-0 flex-1">
+                            <span class="flex flex-wrap items-center gap-2">
+                                <span class="break-words text-lg font-bold text-slate-900">
                                     {{ $vocabulary->korean_word }}
                                 </span>
 
-                                <span class="mt-1 block text-sm leading-5 text-slate-500">
-                                    {{ $vocabulary->english_meaning }}
+                                <span
+                                    role="button"
+                                    tabindex="0"
+                                    data-speak="{{ $vocabulary->korean_word }}"
+                                    aria-label="Listen to {{ $vocabulary->korean_word }}"
+                                    class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-indigo-600 hover:bg-indigo-50"
+                                >
+                                    <i class="fa-solid fa-volume-high text-sm"></i>
                                 </span>
                             </span>
 
-                            <span class="mt-1 shrink-0 p-1 text-slate-400 transition-transform duration-200" data-chevron>
-                                <i class="fa-solid fa-chevron-down text-xs"></i>
+                            <span class="mt-1 block text-sm text-slate-500">
+                                {{ $vocabulary->english_meaning }}
                             </span>
-                        </button>
+                        </span>
 
-                        {{-- Bookmark --}}
-                        <button
-                            type="button"
-                            data-bookmark
-                            aria-pressed="false"
-                            aria-label="Bookmark {{ $vocabulary->korean_word }}"
-                            class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl text-slate-400 transition hover:bg-indigo-50 hover:text-indigo-600"
+                        <span class="mt-2 shrink-0 text-slate-400 transition-transform" data-chevron>
+                            <i class="fa-solid fa-chevron-down text-xs"></i>
+                        </span>
+                    </button>
+
+                    
+                   {{-- Bookmark --}}
+                    <form action="{{ route('bookmarks.toggle') }}" method="POST">
+                        @csrf
+
+                        <input
+                            type="hidden"
+                            name="vocabulary_id"
+                            value="{{ $vocabulary->id }}"
                         >
-                            <i class="fa-regular fa-bookmark text-lg" data-bookmark-icon></i>
+
+                        <button
+                            type="submit"
+                            aria-label="{{ in_array($vocabulary->id, $bookmarkedIds) ? 'Remove bookmark' : 'Save bookmark' }}"
+                            class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl transition hover:bg-indigo-50"
+                        >
+                            <i class="{{ in_array($vocabulary->id, $bookmarkedIds) ? 'fa-solid text-indigo-600' : 'fa-regular text-slate-400' }} fa-bookmark text-lg"></i>
                         </button>
-                    </div>
+                    </form>
 
-                    {{-- Tags --}}
-                    <div class="flex flex-wrap items-center gap-2 px-4 pb-4 pl-[4.25rem] sm:px-5 sm:pb-5 sm:pl-[4.75rem]">
-                        <span class="rounded-lg bg-indigo-50 px-2.5 py-1 text-xs font-medium text-indigo-700">
-                            {{ $vocabulary->level }}
-                        </span>
 
-                        <span class="rounded-lg bg-amber-50 px-2.5 py-1 text-xs font-medium capitalize text-amber-700">
-                            {{ $vocabulary->word_type }}
-                        </span>
-                    </div>
+                </div>
 
-                    {{-- Expandable details --}}
-                    <div data-details class="hidden border-t border-slate-100 bg-slate-50/70 px-4 py-4 sm:px-5">
-                        <p class="mb-2 text-xs font-semibold uppercase tracking-wider text-slate-400">
-                            Word details
-                        </p>
+                {{-- Tags --}}
+                <div class="flex flex-wrap gap-2 px-4 pb-4 pl-[4.25rem]">
+                    <span class="rounded-md bg-indigo-50 px-2 py-1 text-xs font-medium text-indigo-700">
+                        {{ $vocabulary->level }}
+                    </span>
 
-                        <div class="grid grid-cols-2 gap-3">
-                            <div class="rounded-xl border border-slate-200/70 bg-white p-3">
-                                <p class="mb-1 text-xs text-slate-400">Korean</p>
-                                <p class="break-words text-sm font-semibold text-slate-800">
-                                    {{ $vocabulary->korean_word }}
+                    <span class="rounded-md bg-slate-100 px-2 py-1 text-xs font-medium capitalize text-slate-600">
+                        {{ $vocabulary->word_type }}
+                    </span>
+                </div>
+
+                {{-- Details --}}
+                <div data-details class="hidden border-t border-slate-100 bg-slate-50/60 p-4">
+                    
+                        <p class="mb-2 text-xs font-medium text-slate-400">EXAMPLE</p>
+
+                        @forelse ($vocabulary->examples as $example)
+                            <div class="mb-3 last:mb-0">
+                                <p class="text-sm font-bold  leading-6 text-slate-800">
+                                    {{ $example->korean_sentence }}
+                                </p>
+                                <p class="mt-1 text-sm leading-5 text-slate-500">
+                                    {{ $example->english_translation }}
                                 </p>
                             </div>
+                        @empty
+                            <p class="text-sm text-slate-400">No example available.</p>
+                        @endforelse
+                    
+                </div>
+            </article>
+        @endforeach
 
-                            <div class="rounded-xl border border-slate-200/70 bg-white p-3">
-                                <p class="mb-1 text-xs text-slate-400">English meaning</p>
-                                <p class="break-words text-sm font-medium text-slate-800">
-                                    {{ $vocabulary->english_meaning }}
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            @endforeach
 
             <div class="mt-6">
                 {{ $vocabularies->links() }}

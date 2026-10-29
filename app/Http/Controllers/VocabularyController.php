@@ -36,11 +36,22 @@ public function index(Request $request)
 
     $totalWords = Vocabulary::count();
 
-    $vocabularies = $query->paginate(5)->withQueryString();
+    $vocabularies = $query
+    ->with(['examples' => function ($q) {
+        $q->limit(1);
+    }])
+    ->paginate(5)
+    ->withQueryString();
+
+    $bookmarkedIds = \App\Models\Bookmark::where('user_id', 1)
+        ->whereNotNull('vocabulary_id')
+        ->pluck('vocabulary_id')
+        ->toArray();
 
     return view('vocabulary.index', compact(
         'vocabularies',
-        'totalWords'
+        'totalWords',
+        'bookmarkedIds'
     ));
 }
 

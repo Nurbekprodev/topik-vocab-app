@@ -170,3 +170,34 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+
+
+// vocabulary.index, audio reader for each word
+document.querySelectorAll('[data-speak]').forEach(button => {
+    button.addEventListener('click', event => {
+        event.stopPropagation();
+
+        const word = button.dataset.speak;
+
+        if (!('speechSynthesis' in window)) {
+            alert('Audio playback is not supported by this browser.');
+            return;
+        }
+
+        window.speechSynthesis.cancel();
+
+        const utterance = new SpeechSynthesisUtterance(word);
+        utterance.lang = 'ko-KR';
+        utterance.rate = 0.85;
+
+        window.speechSynthesis.speak(utterance);
+    });
+
+    button.addEventListener('keydown', event => {
+        if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            button.click();
+        }
+    });
+});
