@@ -24,7 +24,7 @@
     </a>
 
     <div class="mt-4">
-        <a href="{{ route('vocabulary.index') }}"
+        <a href="{{ route('dashboard') }}"
            class="text-blue-600 hover:underline">
             Back to Dashboard
         </a>

@@ -61,9 +61,9 @@
                 {{ $word->korean_word }}
             </h1>
 
-            <p class="mt-3 text-sm text-slate-500">
+            <!-- <p class="mt-3 text-sm text-slate-500">
                 Read the word, then try to remember its meaning.
-            </p>
+            </p> -->
 
             {{-- Pronunciation --}}
             <button
@@ -94,15 +94,16 @@
                 <span>Show Meaning</span>
             </button>
 
+
             <div
                 id="meaning-section"
                 data-meaning-section
                 hidden
-                class="mt-5 space-y-5"
+                class="mt-5 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8"
             >
                 {{-- English meaning --}}
-                <div class="rounded-3xl border border-blue-100 bg-white p-6 text-center shadow-sm sm:p-8">
-                    <p class="mb-2 text-xs font-bold uppercase tracking-[0.18em] text-blue-600">
+                <div class="text-center">
+                    <p class="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-blue-600">
                         English meaning
                     </p>
 
@@ -111,9 +112,12 @@
                     </h2>
                 </div>
 
+                {{-- Divider --}}
+                <div class="my-8 border-t border-slate-100"></div>
+
                 {{-- Example sentences --}}
-                <div class="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
-                    <div class="mb-5 flex items-center gap-3">
+                <div>
+                    <div class="mb-6 flex items-center gap-3">
                         <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-50 text-blue-700">
                             <i class="fa-solid fa-book-open"></i>
                         </div>
@@ -122,9 +126,9 @@
                             <h3 class="font-bold text-slate-900">
                                 Example sentences
                             </h3>
-                            <p class="text-xs text-slate-500">
+                            <!-- <p class="text-xs text-slate-500">
                                 Learn the word in context
-                            </p>
+                            </p> -->
                         </div>
                     </div>
 
@@ -170,6 +174,7 @@
                     </div>
                 </div>
             </div>
+
         </section>
     </main>
 

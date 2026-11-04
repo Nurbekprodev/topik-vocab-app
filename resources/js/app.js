@@ -201,3 +201,106 @@ document.querySelectorAll('[data-speak]').forEach(button => {
         }
     });
 });
+
+// quiz.vocabulary.custom
+document.addEventListener('DOMContentLoaded', function () {
+
+    const form = document.getElementById('quiz-form');
+
+    const questions = Array.from(
+        document.querySelectorAll('[data-question]')
+    );
+
+    const previousBtn = document.getElementById('previous-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const submitBtn = document.getElementById('submit-btn');
+
+    const currentNumber = document.getElementById('current-number');
+    const progressBar = document.getElementById('progress-bar');
+    const message = document.getElementById('quiz-message');
+
+    let currentIndex = 0;
+
+    function hasAnswer(index) {
+        return questions[index].querySelector(
+            'input[type="radio"]:checked'
+        ) !== null;
+    }
+
+    function showQuestion(index) {
+
+        questions.forEach((question, i) => {
+            question.classList.toggle('hidden', i !== index);
+        });
+
+        currentIndex = index;
+
+        currentNumber.textContent = index + 1;
+
+        progressBar.style.width =
+            ((index + 1) / questions.length * 100) + '%';
+
+        previousBtn.disabled = index === 0;
+
+        nextBtn.classList.toggle(
+            'hidden',
+            index === questions.length - 1
+        );
+
+        submitBtn.classList.toggle(
+            'hidden',
+            index !== questions.length - 1
+        );
+
+        message.textContent = '';
+
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    nextBtn.addEventListener('click', function () {
+
+        if (!hasAnswer(currentIndex)) {
+            message.textContent = 'Please select an answer first.';
+            return;
+        }
+
+        showQuestion(currentIndex + 1);
+
+    });
+
+    previousBtn.addEventListener('click', function () {
+
+        if (currentIndex > 0) {
+            showQuestion(currentIndex - 1);
+        }
+
+    });
+
+    form.addEventListener('submit', function (event) {
+
+        const unansweredIndex = questions.findIndex(
+            (_, index) => !hasAnswer(index)
+        );
+
+        if (unansweredIndex !== -1) {
+
+            event.preventDefault();
+
+            showQuestion(unansweredIndex);
+
+            message.textContent =
+                'Please answer this question before finishing the quiz.';
+
+        }
+
+    });
+
+    // Clear validation message when an answer is selected.
+    form.addEventListener('change', function () {
+        message.textContent = '';
+    });
+
+});
