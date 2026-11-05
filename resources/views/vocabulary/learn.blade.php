@@ -11,14 +11,14 @@
 <header class="sticky top-0 z-40 border-b border-slate-200/80 bg-white/95 backdrop-blur">
     <div class="mx-auto flex max-w-xl items-center gap-4 px-4 py-4">
 
-        <button
+        <!-- <button
             type="button"
             onclick="history.back()"
             aria-label="Go back"
             class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100"
         >
             <i class="fa-solid fa-arrow-left text-lg"></i>
-        </button>
+        </button> -->
 
         <div class="min-w-0 flex-1">
             <div class="mb-2 flex justify-between text-sm text-gray-500">

@@ -5,7 +5,7 @@
 @section('content')
     <div class="max-w-3xl mx-auto py-10">
 
-        <div class="mb-10">
+        <div class="mb-10 max-sm:pl-6">
             <h1 class="text-3xl font-bold text-gray-900">
                 Test Your Knowledge
             </h1>

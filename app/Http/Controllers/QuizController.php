@@ -146,40 +146,40 @@ public function submit(Request $request, Quiz $quiz)
     }
 
     public function customStart(Request $request)
-{
-    $words = Vocabulary::where('level', $request->level)
-        ->where('difficulty', $request->difficulty)
-        ->inRandomOrder()
-        ->take($request->question_count)
-        ->get();
-
-    $questions = [];
-
-    foreach ($words as $word) {
-
-        $wrongAnswers = Vocabulary::where('id', '!=', $word->id)
+    {
+        $words = Vocabulary::where('level', $request->level)
+            ->where('difficulty', $request->difficulty)
             ->inRandomOrder()
-            ->take(3)
-            ->pluck('english_meaning')
-            ->toArray();
+            ->take($request->question_count)
+            ->get();
 
-        $options = array_merge(
-            [$word->english_meaning],
-            $wrongAnswers
-        );
+        $questions = [];
 
-        shuffle($options);
+        foreach ($words as $word) {
 
-        $questions[] = [
-            'word_id' => $word->id,
-            'korean_word' => $word->korean_word,
-            'correct_answer' => $word->english_meaning,
-            'options' => $options,
-        ];
+            $wrongAnswers = Vocabulary::where('id', '!=', $word->id)
+                ->inRandomOrder()
+                ->take(3)
+                ->pluck('english_meaning')
+                ->toArray();
+
+            $options = array_merge(
+                [$word->english_meaning],
+                $wrongAnswers
+            );
+
+            shuffle($options);
+
+            $questions[] = [
+                'word_id' => $word->id,
+                'korean_word' => $word->korean_word,
+                'correct_answer' => $word->english_meaning,
+                'options' => $options,
+            ];
+        }
+
+        return view('quiz.vocabulary.play', compact('questions'));
     }
-
-    return view('quiz.vocabulary.play', compact('questions'));
-}
 
 public function result(Request $request)
 {

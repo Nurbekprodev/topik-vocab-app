@@ -23,67 +23,67 @@
 
 
 
-{{-- Main learning section --}}
-<section class="relative overflow-hidden rounded-3xl bg-slate-900 p-7 sm:p-9">
+    {{-- Main learning section --}}
+    <section class="relative overflow-hidden rounded-3xl bg-slate-900 p-7 sm:p-9">
 
-    <div class="relative z-10 max-w-xl">
+        <div class="relative z-10 max-w-xl">
 
-        <p class="text-sm font-semibold tracking-wider text-blue-400">
-            VOCABULARY PRACTICE
-        </p>
+            <p class="text-sm font-semibold tracking-wider text-blue-400">
+                VOCABULARY PRACTICE
+            </p>
 
-        <h2 class="mt-4 text-3xl font-bold tracking-tight text-white">
-            Ready to learn some Korean?
-        </h2>
+            <h2 class="mt-4 text-3xl font-bold tracking-tight text-white">
+                Ready to learn some Korean?
+            </h2>
 
-        <p class="mt-2 leading-7 text-slate-400">
-            Choose how many words you want to study in this session.
-        </p>
+            <p class="mt-2 leading-7 text-slate-400">
+                Choose how many words you want to study in this session.
+            </p>
 
-        <form action="{{ route('vocabulary.learn') }}" method="GET" class="mt-7">
+            <form action="{{ route('vocabulary.learn') }}" method="GET" class="mt-7">
 
-            <div class="flex flex-wrap gap-3">
+                <div class="flex flex-wrap gap-3">
 
-                @foreach ([5, 10, 20, 30] as $count)
-                    <label class="cursor-pointer">
-                        <input
-                            type="radio"
-                            name="words"
-                            value="{{ $count }}"
-                            class="peer sr-only"
-                            {{ $count === 10 ? 'checked' : '' }}
-                        >
+                    @foreach ([5, 10, 20, 30] as $count)
+                        <label class="cursor-pointer">
+                            <input
+                                type="radio"
+                                name="words"
+                                value="{{ $count }}"
+                                class="peer sr-only"
+                                {{ $count === 10 ? 'checked' : '' }}
+                            >
 
-                        <span class="flex min-w-[76px] flex-col items-center rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-white transition hover:bg-white/10 peer-checked:border-blue-400 peer-checked:bg-blue-500/20 peer-checked:ring-1 peer-checked:ring-blue-400">
-                            <span class="text-xl font-bold">{{ $count }}</span>
-                            <span class="mt-0.5 text-xs text-slate-400">words</span>
-                        </span>
-                    </label>
-                @endforeach
+                            <span class="flex min-w-[76px] flex-col items-center rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-white transition hover:bg-white/10 peer-checked:border-blue-400 peer-checked:bg-blue-500/20 peer-checked:ring-1 peer-checked:ring-blue-400">
+                                <span class="text-xl font-bold">{{ $count }}</span>
+                                <span class="mt-0.5 text-xs text-slate-400">words</span>
+                            </span>
+                        </label>
+                    @endforeach
 
-            </div>
+                </div>
 
-            <button
-                type="submit"
-                class="mt-6 inline-flex items-center gap-3 rounded-xl bg-white px-6 py-3.5 font-semibold text-slate-900 transition hover:bg-blue-50"
-            >
-                Start learning
-                <i class="fa-solid fa-arrow-right text-sm"></i>
-            </button>
+                <button
+                    type="submit"
+                    class="mt-6 inline-flex items-center gap-3 rounded-xl bg-white px-6 py-3.5 font-semibold text-slate-900 transition hover:bg-blue-50"
+                >
+                    Start learning
+                    <i class="fa-solid fa-arrow-right text-sm"></i>
+                </button>
 
-        </form>
+            </form>
 
-    </div>
+        </div>
 
-    <div class="pointer-events-none absolute -right-12 -top-16 hidden h-80 w-80 items-center justify-center rounded-full border border-white/10 md:flex">
-        <div class="flex h-60 w-60 items-center justify-center rounded-full border border-white/10">
-            <div class="flex h-40 w-40 items-center justify-center rounded-full bg-white/5">
-                <i class="fa-solid fa-language text-7xl text-white/15"></i>
+        <div class="pointer-events-none absolute -right-12 -top-16 hidden h-80 w-80 items-center justify-center rounded-full border border-white/10 md:flex">
+            <div class="flex h-60 w-60 items-center justify-center rounded-full border border-white/10">
+                <div class="flex h-40 w-40 items-center justify-center rounded-full bg-white/5">
+                    <i class="fa-solid fa-language text-7xl text-white/15"></i>
+                </div>
             </div>
         </div>
-    </div>
 
-</section>
+    </section>
 
 
 
@@ -142,52 +142,85 @@
     </section>
 
 
-    {{-- Learning progress --}}
-    <section>
-        <div class="mb-4 flex items-center justify-between">
-            <h2 class="text-lg font-bold text-slate-900">
-                Your progress
-            </h2>
+{{-- Learning progress --}}
+<section>
+    <div class="mb-5">
+        <h2 class="text-lg font-bold text-slate-900">
+            Your learning progress
+        </h2>
+        <p class="mt-1 text-sm text-slate-500">
+            See how much you've completed so far.
+        </p>
+    </div>
 
-            <a href="{{ route('vocabulary.index') }}"
-               class="text-sm font-semibold text-blue-600 hover:text-blue-700">
-                View vocabulary
-                <i class="fa-solid fa-arrow-right ml-1 text-xs"></i>
-            </a>
+    <div class="rounded-2xl border border-slate-200 bg-white p-6 space-y-7">
+
+        {{-- Vocabulary --}}
+        <div>
+            <div class="mb-3 flex items-center justify-between">
+                <div>
+                    <h3 class="font-semibold text-slate-800">Vocabulary</h3>
+                    <p class="mt-1 text-sm text-slate-500">
+                        {{ $learnedWords }} of {{ $totalWords }} words learned
+                    </p>
+                </div>
+
+                <span class="text-sm font-bold text-blue-600">
+                    {{ $totalWords > 0 ? round(($learnedWords / $totalWords) * 100) : 0 }}%
+                </span>
+            </div>
+
+            <div class="h-2.5 overflow-hidden rounded-full bg-slate-100">
+                <div
+                    class="h-full rounded-full bg-blue-600 transition-all"
+                    style="width: {{ $totalWords > 0 ? min(100, ($learnedWords / $totalWords) * 100) : 0 }}%"
+                ></div>
+            </div>
         </div>
 
-        <div class="grid grid-cols-2 gap-3 sm:grid-cols-4">
+        {{-- Grammar --}}
+        <div>
+            <div class="mb-3 flex items-center justify-between">
+                <div>
+                    <h3 class="font-semibold text-slate-800">Grammar</h3>
+                    <p class="mt-1 text-sm text-slate-500">
+                        {{ $completedGrammar }} of {{ $totalGrammar }} lessons completed
+                    </p>
+                </div>
 
-            <div class="rounded-2xl border border-slate-200 bg-white p-4">
-                <p class="text-sm text-slate-500">Total words</p>
-                <p class="mt-2 text-2xl font-bold text-slate-900">
-                    {{ $totalWords }}
-                </p>
+                <span class="text-sm font-bold text-violet-600">
+                    {{ $totalGrammar > 0 ? round(($completedGrammar / $totalGrammar) * 100) : 0 }}%
+                </span>
             </div>
 
-            <div class="rounded-2xl border border-slate-200 bg-white p-4">
-                <p class="text-sm text-slate-500">Learned</p>
-                <p class="mt-2 text-2xl font-bold text-slate-900">
-                    {{ $learnedWords }}
-                </p>
+            <div class="h-2.5 overflow-hidden rounded-full bg-slate-100">
+                <div
+                    class="h-full rounded-full bg-violet-500 transition-all"
+                    style="width: {{ $totalGrammar > 0 ? min(100, ($completedGrammar / $totalGrammar) * 100) : 0 }}%"
+                ></div>
             </div>
-
-            <div class="rounded-2xl border border-slate-200 bg-white p-4">
-                <p class="text-sm text-slate-500">Bookmarked</p>
-                <p class="mt-2 text-2xl font-bold text-slate-900">
-                    {{ $bookmarkedWords }}
-                </p>
-            </div>
-
-            <div class="rounded-2xl border border-slate-200 bg-white p-4">
-                <p class="text-sm text-slate-500">Grammar completed</p>
-                <p class="mt-2 text-2xl font-bold text-slate-900">
-                    {{ $completedGrammar }}
-                </p>
-            </div>
-
         </div>
-    </section>
+
+        {{-- Bookmarks --}}
+        <div class="flex items-center justify-between border-t border-slate-100 pt-5">
+            <div class="flex items-center gap-3">
+                <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-amber-50 text-amber-600">
+                    <i class="fa-solid fa-bookmark"></i>
+                </div>
+
+                <div>
+                    <p class="font-semibold text-slate-800">Saved words</p>
+                    <p class="text-xs text-slate-500">Your bookmarked vocabulary</p>
+                </div>
+            </div>
+
+            <span class="text-xl font-bold text-slate-900">
+                {{ $bookmarkedWords }}
+            </span>
+        </div>
+
+    </div>
+</section>
 
 
     {{-- Latest quiz --}}

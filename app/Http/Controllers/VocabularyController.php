@@ -122,20 +122,22 @@ public function mark(Request $request)
 
     $wordIds = session('vocabulary_session_ids', []);
     $index = (int) session('vocabulary_session_index', 0);
-    $currentWordId = $wordIds[$index] ?? null;
 
-    // Only allow marking the current word in this session.
+    $vocabularyId = (int) $request->vocabulary_id;
+
+    // Make sure the word belongs to this learning session.
     abort_unless(
-        $currentWordId !== null &&
-        (int) $request->vocabulary_id === (int) $currentWordId,
+        in_array($vocabularyId, $wordIds),
         422,
         'Invalid vocabulary session.'
     );
 
+    $currentWordId = $wordIds[$index] ?? null;
+
     $progress = UserVocabularyProgress::firstOrCreate(
         [
             'user_id' => $userId,
-            'vocabulary_id' => $request->vocabulary_id,
+            'vocabulary_id' => $vocabularyId,
         ],
         [
             'status' => 'learning',
@@ -155,8 +157,10 @@ public function mark(Request $request)
     $progress->last_reviewed_at = now();
     $progress->save();
 
-    // Advance to the next word in the selected session.
-    session()->put('vocabulary_session_index', $index + 1);
+    // Advance only if the submitted word is the current word.
+    if ($vocabularyId === (int) $currentWordId) {
+        session()->put('vocabulary_session_index', $index + 1);
+    }
 
     return redirect()->route('vocabulary.learn');
 }

@@ -11,10 +11,10 @@
     <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
         <div class="mx-auto flex max-w-xl items-center gap-4 px-4 py-4">
 
-            <a href="{{ route('quiz.index') }}"
+            <!-- <a href="{{ route('quiz.index') }}"
                class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100">
                 <i class="fa-solid fa-arrow-left text-lg"></i>
-            </a>
+            </a> -->
 
             <div class="min-w-0 flex-1">
 

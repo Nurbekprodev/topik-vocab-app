@@ -24,6 +24,8 @@ class DashboardController extends Controller
         $bookmarkedWords = Bookmark::where('user_id', $userId)
             ->count();
 
+        $totalGrammar = Grammar::count();
+
         $completedGrammar = UserGrammarProgress::where('user_id', $userId)
             ->where('status', 'completed')
             ->count();
@@ -36,6 +38,7 @@ class DashboardController extends Controller
             'totalWords',
             'learnedWords',
             'bookmarkedWords',
+            'totalGrammar',
             'completedGrammar',
             'latestQuiz'
         ));
