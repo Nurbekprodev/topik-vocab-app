@@ -164,24 +164,23 @@
                     </button>
 
                     
-                   {{-- Bookmark --}}
-                    <form action="{{ route('bookmarks.toggle') }}" method="POST">
-                        @csrf
-
-                        <input
-                            type="hidden"
-                            name="vocabulary_id"
-                            value="{{ $vocabulary->id }}"
-                        >
-
-                        <button
-                            type="submit"
-                            aria-label="{{ in_array($vocabulary->id, $bookmarkedIds) ? 'Remove bookmark' : 'Save bookmark' }}"
-                            class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl transition hover:bg-indigo-50"
-                        >
-                            <i class="{{ in_array($vocabulary->id, $bookmarkedIds) ? 'fa-solid text-indigo-600' : 'fa-regular text-slate-400' }} fa-bookmark text-lg"></i>
-                        </button>
-                    </form>
+              {{-- Bookmark --}}
+            <div class="mb-4 flex justify-center">
+                <button
+                    type="button"
+                    data-bookmark-button
+                    data-url="{{ route('bookmarks.toggle') }}"
+                    data-vocabulary-id="{{ $vocabulary->id }}"
+                    aria-pressed="{{ in_array($vocabulary->id, $bookmarkedIds) ? 'true' : 'false' }}"
+                    aria-label="{{ in_array($vocabulary->id, $bookmarkedIds) ? 'Remove bookmark' : 'Save bookmark' }}"
+                    class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl transition hover:bg-indigo-50"
+                >
+                    <i
+                        data-bookmark-icon
+                        class="{{ in_array($vocabulary->id, $bookmarkedIds) ? 'fa-solid text-indigo-600' : 'fa-regular text-slate-400' }} fa-bookmark text-lg"
+                    ></i>
+                </button>
+            </div>
 
 
                 </div>
@@ -219,7 +218,7 @@
             </article>
         @endforeach
 
-
+             <!-- pagination -->
             <div class="mt-6">
                 {{ $vocabularies->links() }}
             </div>

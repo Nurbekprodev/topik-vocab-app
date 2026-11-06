@@ -2,23 +2,27 @@ import './bootstrap';
 
 
 document.addEventListener('click', (event) => {
-    // Show or hide the word meaning and examples
+    // Show or hide word meaning and examples
     const meaningButton = event.target.closest('#show-meaning-btn');
 
     if (meaningButton) {
         const meaningSection = document.getElementById('meaning-section');
+        const meaningArrow = document.getElementById('meaning-arrow');
 
-        if (!meaningSection) return;
+        if (!meaningSection || !meaningArrow) return;
 
-        const isHidden = meaningSection.hidden;
+        const isExpanded = meaningButton.getAttribute('aria-expanded') === 'true';
 
-        meaningSection.hidden = !isHidden;
+        meaningSection.hidden = isExpanded;
 
-        meaningButton.setAttribute('aria-expanded', String(isHidden));
+        meaningButton.setAttribute('aria-expanded', String(!isExpanded));
 
-        meaningButton.innerHTML = isHidden
-            ? '<i class="fa-regular fa-eye-slash text-blue-600"></i><span>Hide Meaning</span>'
-            : '<i class="fa-regular fa-eye text-blue-600"></i><span>Show Meaning</span>';
+        meaningButton.setAttribute(
+            'aria-label',
+            isExpanded ? 'Show meaning' : 'Hide meaning'
+        );
+
+        meaningArrow.classList.toggle('rotate-180', !isExpanded);
 
         return;
     }
@@ -47,8 +51,7 @@ document.addEventListener('click', (event) => {
 });
 
 
-// vocabulary learn page
-
+    // vocabulary learn page
     function speakKorean(button) {
         if (!('speechSynthesis' in window)) {
             alert('Audio playback is not supported in this browser.');
@@ -79,97 +82,131 @@ document.addEventListener('click', (event) => {
 
 
     // vocabulary main page
-    
-document.addEventListener('DOMContentLoaded', () => {
-    
-    const searchInput = document.getElementById('vocab-search');
-    const searchForm = document.getElementById('vocab-search-form');
-    const clearSearch = document.getElementById('clear-search');
+    document.addEventListener('DOMContentLoaded', () => {
+        
+        const searchInput = document.getElementById('vocab-search');
+        const searchForm = document.getElementById('vocab-search-form');
+        const clearSearch = document.getElementById('clear-search');
 
-    if (searchInput && searchForm && clearSearch) {
-        const updateClearButton = () => {
-            clearSearch.classList.toggle(
-                'hidden',
-                searchInput.value.length === 0
-            );
-        };
+        if (searchInput && searchForm && clearSearch) {
+            const updateClearButton = () => {
+                clearSearch.classList.toggle(
+                    'hidden',
+                    searchInput.value.length === 0
+                );
+            };
 
-        searchInput.addEventListener('input', updateClearButton);
+            searchInput.addEventListener('input', updateClearButton);
 
-        // Search automatically after the user stops typing.
-        let searchTimeout;
+            // Search automatically after the user stops typing.
+            let searchTimeout;
 
-        searchInput.addEventListener('input', () => {
-            clearTimeout(searchTimeout);
+            searchInput.addEventListener('input', () => {
+                clearTimeout(searchTimeout);
 
-            searchTimeout = setTimeout(() => {
+                searchTimeout = setTimeout(() => {
+                    searchForm.requestSubmit();
+                }, 400);
+            });
+
+            // Clear search and reload the complete list.
+            clearSearch.addEventListener('click', () => {
+                searchInput.value = '';
                 searchForm.requestSubmit();
-            }, 400);
+            });
+
+            updateClearButton();
+        }
+
+
+        // Expand and collapse vocabulary cards.
+        document.querySelectorAll('[data-expand]').forEach(button => {
+            button.addEventListener('click', () => {
+                const card = button.closest('[data-vocab-card]');
+
+                if (!card) return;
+
+                const details = card.querySelector('[data-details]');
+                const chevron = card.querySelector('[data-chevron]');
+
+                if (!details) return;
+
+                const isExpanded =
+                    button.getAttribute('aria-expanded') === 'true';
+
+                button.setAttribute(
+                    'aria-expanded',
+                    String(!isExpanded)
+                );
+
+                details.classList.toggle('hidden', isExpanded);
+
+                if (chevron) {
+                    chevron.classList.toggle('rotate-180', !isExpanded);
+                }
+            });
         });
 
-        // Clear search and reload the complete list.
-        clearSearch.addEventListener('click', () => {
-            searchInput.value = '';
-            searchForm.requestSubmit();
-        });
+        // Vocabulary bookmarks handling
+        document.addEventListener('click', async (event) => {
+            const button = event.target.closest('[data-bookmark-button]');
 
-        updateClearButton();
-    }
+            if (!button) return;
 
-
-    // Expand and collapse vocabulary cards.
-    document.querySelectorAll('[data-expand]').forEach(button => {
-        button.addEventListener('click', () => {
-            const card = button.closest('[data-vocab-card]');
-
-            if (!card) return;
-
-            const details = card.querySelector('[data-details]');
-            const chevron = card.querySelector('[data-chevron]');
-
-            if (!details) return;
-
-            const isExpanded =
-                button.getAttribute('aria-expanded') === 'true';
-
-            button.setAttribute(
-                'aria-expanded',
-                String(!isExpanded)
-            );
-
-            details.classList.toggle('hidden', isExpanded);
-
-            if (chevron) {
-                chevron.classList.toggle('rotate-180', !isExpanded);
-            }
-        });
-    });
-
-    // Toggle bookmark appearance.
-    // This changes the UI only; persistent saving requires a backend.
-    document.querySelectorAll('[data-bookmark]').forEach(button => {
-        button.addEventListener('click', () => {
-            const isBookmarked =
-                button.getAttribute('aria-pressed') === 'true';
+            if (button.disabled) return;
 
             const icon = button.querySelector('[data-bookmark-icon]');
+            const csrfToken = document.querySelector('meta[name="csrf-token"]')?.content;
 
-            button.setAttribute(
-                'aria-pressed',
-                String(!isBookmarked)
-            );
-
-            if (icon) {
-                icon.classList.toggle('fa-solid', !isBookmarked);
-                icon.classList.toggle('fa-regular', isBookmarked);
+            if (!csrfToken) {
+                console.error('CSRF token not found.');
+                return;
             }
 
-            button.classList.toggle('bg-indigo-50', !isBookmarked);
-            button.classList.toggle('text-indigo-600', !isBookmarked);
-            button.classList.toggle('text-slate-400', isBookmarked);
+            button.disabled = true;
+
+            try {
+                const response = await fetch(button.dataset.url, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json',
+                        'X-CSRF-TOKEN': csrfToken,
+                    },
+                    body: JSON.stringify({
+                        vocabulary_id: button.dataset.vocabularyId,
+                    }),
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error: ${response.status}`);
+                }
+
+                const data = await response.json();
+
+                button.setAttribute('aria-pressed', String(data.bookmarked));
+
+                button.setAttribute(
+                    'aria-label',
+                    data.bookmarked ? 'Remove bookmark' : 'Save bookmark'
+                );
+
+                if (icon) {
+                    icon.classList.toggle('fa-solid', data.bookmarked);
+                    icon.classList.toggle('fa-regular', !data.bookmarked);
+                    icon.classList.toggle('text-indigo-600', data.bookmarked);
+                    icon.classList.toggle('text-slate-400', !data.bookmarked);
+                }
+
+            } catch (error) {
+                console.error('Bookmark error:', error);
+            } finally {
+                button.disabled = false;
+            }
         });
+
+
     });
-});
 
 
 
@@ -304,3 +341,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 });
+
+
+

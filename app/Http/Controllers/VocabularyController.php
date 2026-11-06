@@ -40,7 +40,7 @@ public function index(Request $request)
     ->with(['examples' => function ($q) {
         $q->limit(1);
     }])
-    ->paginate(5)
+    ->paginate(10)
     ->withQueryString();
 
     $bookmarkedIds = \App\Models\Bookmark::where('user_id', 1)
@@ -104,10 +104,15 @@ public function learn(Request $request)
 
     $word = Vocabulary::with('examples')->findOrFail($wordIds[$index]);
 
+    $bookmarkedIds = Bookmark::where('user_id', 1)
+    ->pluck('vocabulary_id')
+    ->toArray();
+
     return view('vocabulary.learn', [
         'word' => $word,
         'currentNumber' => $index + 1,
         'totalWords' => $totalWords,
+        'bookmarkedIds' => $bookmarkedIds,
     ]);
 }
 

@@ -90,6 +90,11 @@
 
         @endforeach
 
+         <!-- pagination  -->
+        <div class="mt-6">
+            {{ $grammars->links() }}
+        </div>
+
     </div>
 
 </div>

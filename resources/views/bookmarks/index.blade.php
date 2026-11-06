@@ -90,6 +90,11 @@
                 </a>
             </div>
         @endforelse
+
+        <!-- pagination -->
+        <div class="mt-6">
+            {{ $bookmarks->links() }}
+        </div>
     </div>
 
 </div>

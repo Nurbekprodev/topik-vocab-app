@@ -21,11 +21,11 @@
 
          
 
-            <p class="mt-3 text-sm leading-6 text-slate-500">
+            <h2 class="mt-3 leading-6 ">
                 Choose the best answer for each question.
-            </p>
+            </h2>
 
-            <div class="mt-5 flex items-center justify-between border-b border-slate-100 pb-4">
+            <!-- <div class="mt-5 flex items-center justify-between border-b border-slate-100 pb-4">
                 <span class="text-sm text-slate-500">
                     {{ $quiz->questions->count() }} questions
                 </span>
@@ -33,7 +33,7 @@
                 <span class="text-xs font-medium text-slate-400">
                     Select one answer per question
                 </span>
-            </div>
+            </div> -->
         </header>
 
         {{-- Feedback messages --}}

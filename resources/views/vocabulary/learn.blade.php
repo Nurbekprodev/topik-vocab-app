@@ -11,15 +11,6 @@
 <header class="sticky top-0 z-40 border-b border-slate-200/80 bg-white/95 backdrop-blur">
     <div class="mx-auto flex max-w-xl items-center gap-4 px-4 py-4">
 
-        <!-- <button
-            type="button"
-            onclick="history.back()"
-            aria-label="Go back"
-            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100"
-        >
-            <i class="fa-solid fa-arrow-left text-lg"></i>
-        </button> -->
-
         <div class="min-w-0 flex-1">
             <div class="mb-2 flex justify-between text-sm text-gray-500">
                 <span>Learning session</span>
@@ -83,98 +74,86 @@
 
         {{-- Reveal meaning --}}
         <section class="mt-10">
-            <button
-                type="button"
-                id="show-meaning-btn"
-                aria-expanded="false"
-                aria-controls="meaning-section"
-                class="flex w-full items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-5 py-4 font-bold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50/50 active:scale-[0.99]"
-            >
-                <i class="fa-regular fa-eye text-blue-600"></i>
-                <span>Show Meaning</span>
-            </button>
 
+            {{-- Expand / collapse button --}}
+            <div class="flex justify-center">
+                <button
+                    type="button"
+                    id="show-meaning-btn"
+                    aria-expanded="false"
+                    aria-controls="meaning-section"
+                    aria-label="Show meaning"
+                    class="flex h-10 w-10 items-center justify-center rounded-full text-slate-400 transition hover:bg-slate-100 hover:text-slate-700"
+                >
+                    <i id="meaning-arrow" class="fa-solid fa-chevron-down text-lg transition-transform duration-300"></i>
+                </button>
+            </div>
 
+            {{-- Meaning content --}}
             <div
                 id="meaning-section"
                 data-meaning-section
                 hidden
-                class="mt-5 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8"
+                class="mt-5 rounded-2xl bg-white p-6 sm:p-8"
             >
+
                 {{-- English meaning --}}
                 <div class="text-center">
-                    <p class="mb-3 text-xs font-bold uppercase tracking-[0.18em] text-blue-600">
-                        English meaning
+                    <p class="mb-2 text-xs font-bold uppercase tracking-widest text-blue-600">
+                        Meaning
                     </p>
 
-                    <h2 class="text-3xl font-extrabold tracking-tight text-slate-900">
+                    <h2 class="text-2xl font-bold tracking-tight text-slate-900">
                         {{ $word->english_meaning }}
                     </h2>
                 </div>
 
                 {{-- Divider --}}
-                <div class="my-8 border-t border-slate-100"></div>
+                <div class="my-6 border-t border-slate-100"></div>
 
                 {{-- Example sentences --}}
                 <div>
-                    <div class="mb-6 flex items-center gap-3">
-                        <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-50 text-blue-700">
-                            <i class="fa-solid fa-book-open"></i>
-                        </div>
-
-                        <div>
-                            <h3 class="font-bold text-slate-900">
-                                Example sentences
-                            </h3>
-                            <!-- <p class="text-xs text-slate-500">
-                                Learn the word in context
-                            </p> -->
-                        </div>
-                    </div>
+                    <h3 class="mb-5 font-bold text-slate-900">
+                        Example sentences
+                    </h3>
 
                     <div class="space-y-5">
                         @forelse ($word->examples as $example)
+
                             @if (!$loop->first)
                                 <div class="border-t border-slate-100"></div>
                             @endif
 
                             <article class="space-y-2">
-                                <div class="flex items-start gap-3">
-                                    <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-slate-100 text-xs font-bold text-slate-500">
-                                        {{ $loop->iteration }}
-                                    </span>
+                                <p class="text-base font-semibold leading-7 text-slate-800">
+                                    {{ $example->korean_sentence }}
+                                </p>
 
-                                    <p class="text-base font-semibold leading-7 text-slate-800">
-                                        {{ $example->korean_sentence }}
-                                    </p>
-                                </div>
-
-                                <p class="pl-9 text-sm leading-6 text-slate-500">
+                                <p class="text-sm leading-6 text-slate-500">
                                     {{ $example->english_translation }}
                                 </p>
 
-                                <div class="pl-9">
-                                    <button
-                                        type="button"
-                                        data-play-audio
-                                        data-word="{{ $example->korean_sentence }}"
-                                        aria-label="Listen to example sentence {{ $loop->iteration }}"
-                                        class="inline-flex items-center gap-2 rounded-lg px-2 py-1 text-xs font-semibold text-blue-700 transition hover:bg-blue-50"
-                                    >
-                                        <i class="fa-solid fa-volume-high"></i>
-                                        Listen
-                                    </button>
-                                </div>
+                                <button
+                                    type="button"
+                                    data-play-audio
+                                    data-word="{{ $example->korean_sentence }}"
+                                    aria-label="Listen to example sentence {{ $loop->iteration }}"
+                                    class="inline-flex items-center gap-2 rounded-lg py-1 text-xs font-semibold text-blue-700 transition hover:text-blue-800"
+                                >
+                                    <i class="fa-solid fa-volume-high"></i>
+                                    Listen
+                                </button>
                             </article>
+
                         @empty
-                            <p class="text-sm leading-6 text-slate-500">
+                            <p class="text-sm text-slate-500">
                                 No example sentences available yet.
                             </p>
                         @endforelse
                     </div>
                 </div>
-            </div>
 
+            </div>
         </section>
     </main>
 
@@ -184,23 +163,19 @@
 
             {{-- Bookmark --}}
             <div class="mb-4 flex justify-center">
-                <form action="{{ route('bookmarks.store') }}" method="POST">
-                    @csrf
-
-                    <input
-                        type="hidden"
-                        name="vocabulary_id"
-                        value="{{ $word->id }}"
-                    >
-
-                    <button
-                        type="submit"
-                        class="inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold text-slate-500 transition hover:bg-blue-50 hover:text-blue-700"
-                    >
-                        <i class="fa-regular fa-bookmark"></i>
-                        Save word
-                    </button>
-                </form>
+                <button
+                    type="button"
+                    data-bookmark-button
+                    data-url="{{ route('bookmarks.toggle') }}"
+                    data-vocabulary-id="{{ $word->id }}"
+                    aria-pressed="{{ in_array($word->id, $bookmarkedIds) ? 'true' : 'false' }}"
+                    aria-label="{{ in_array($word->id, $bookmarkedIds) ? 'Remove bookmark' : 'Save bookmark' }}"
+                    class=" flex h-9 w-9 items-center justify-center rounded-xl transition hover:bg-indigo-50"
+                >
+                    <i data-bookmark-icon
+                        class="{{ in_array($word->id, $bookmarkedIds) ? 'fa-solid text-indigo-600' : 'fa-regular text-slate-400' }} fa-bookmark text-lg">
+                    </i>
+                </button>
             </div>
 
             {{-- Learning status --}}

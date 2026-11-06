@@ -12,7 +12,7 @@ class BookmarkController extends Controller
         $bookmarks = Bookmark::with('vocabulary')
             ->where('user_id', 1)
             ->whereNotNull('vocabulary_id')
-            ->get();
+            ->paginate(5);
 
         return view('bookmarks.index', compact('bookmarks'));
     }
@@ -32,12 +32,21 @@ class BookmarkController extends Controller
             ->where('vocabulary_id', $vocabularyId)
             ->first();
 
-        if($bookmark){
+        if ($bookmark) {
             $bookmark->delete();
-        }else {
+            $isBookmarked = false;
+        } else {
             Bookmark::create([
                 'user_id' => 1,
                 'vocabulary_id' => $vocabularyId,
+            ]);
+
+            $isBookmarked = true;
+        }
+
+        if ($request->expectsJson()) {
+            return response()->json([
+                'bookmarked' => $isBookmarked,
             ]);
         }
 
