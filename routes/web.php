@@ -48,3 +48,13 @@ Route::post('/quiz/vocabulary/custom/start', [QuizController::class, 'customStar
     ->name('quiz.vocabulary.custom.start');
 
 Route::get('/profile', [ProfileController::class, 'index'])->name('profile.index');
+
+
+
+use Illuminate\Support\Facades\DB;
+
+Route::get('/check-sessions', function () {
+    return response()->json(
+        DB::select('DESCRIBE sessions')
+    );
+});
