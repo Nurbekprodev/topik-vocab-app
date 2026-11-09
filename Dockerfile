@@ -57,6 +57,8 @@ RUN printf '<Directory /var/www/html/public>\n\
 # Set working directory
 WORKDIR /var/www/html
 
+COPY docker/certs/ca.pem /etc/ssl/certs/aiven-ca.pem
+
 # Copy Laravel application
 COPY . .
 
