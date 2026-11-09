@@ -1,0 +1,1702 @@
+[
+    {
+        "korean_word": "나",
+        "english_meaning": "I / Me (informal)",
+        "word_type": "pronoun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "나는 학생이야.",
+                "english_translation": "I am a student."
+            },
+            {
+                "korean_sentence": "이것은 내 책이야.",
+                "english_translation": "This is my book."
+            }
+        ]
+    },
+    {
+        "korean_word": "저",
+        "english_meaning": "I / Me (formal)",
+        "word_type": "pronoun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "저는 한국 사람입니다.",
+                "english_translation": "I am Korean."
+            },
+            {
+                "korean_sentence": "제 이름은 지민입니다.",
+                "english_translation": "My name is Jimin."
+            }
+        ]
+    },
+    {
+        "korean_word": "우리",
+        "english_meaning": "We / Our",
+        "word_type": "pronoun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "우리는 친구입니다.",
+                "english_translation": "We are friends."
+            },
+            {
+                "korean_sentence": "우리 집에 오세요.",
+                "english_translation": "Please come to our house."
+            }
+        ]
+    },
+    {
+        "korean_word": "이름",
+        "english_meaning": "Name",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "이름이 무엇입니까?",
+                "english_translation": "What is your name?"
+            },
+            {
+                "korean_sentence": "제 이름은 민수예요.",
+                "english_translation": "My name is Minsu."
+            }
+        ]
+    },
+    {
+        "korean_word": "나이",
+        "english_meaning": "Age",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "나이가 어떻게 되세요?",
+                "english_translation": "How old are you?"
+            },
+            {
+                "korean_sentence": "저는 스무 살입니다.",
+                "english_translation": "I am twenty years old."
+            }
+        ]
+    },
+    {
+        "korean_word": "직업",
+        "english_meaning": "Job / Occupation",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "직업이 뭐예요?",
+                "english_translation": "What is your job?"
+            },
+            {
+                "korean_sentence": "제 직업은 선생님입니다.",
+                "english_translation": "My occupation is a teacher."
+            }
+        ]
+    },
+    {
+        "korean_word": "의사",
+        "english_meaning": "Doctor",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "의사가 병원에 있습니다.",
+                "english_translation": "The doctor is in the hospital."
+            },
+            {
+                "korean_sentence": "저는 의사가 되고 싶어요.",
+                "english_translation": "I want to be a doctor."
+            }
+        ]
+    },
+    {
+        "korean_word": "간호사",
+        "english_meaning": "Nurse",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "간호사가 친절해요.",
+                "english_translation": "The nurse is kind."
+            },
+            {
+                "korean_sentence": "저의 누나는 간호사입니다.",
+                "english_translation": "My older sister is a nurse."
+            }
+        ]
+    },
+    {
+        "korean_word": "경찰",
+        "english_meaning": "Police officer",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "경찰이 도와주었어요.",
+                "english_translation": "The police officer helped."
+            },
+            {
+                "korean_sentence": "경찰서가 어디에 있나요?",
+                "english_translation": "Where is the police station?"
+            }
+        ]
+    },
+    {
+        "korean_word": "요리사",
+        "english_meaning": "Chef / Cook",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "이 식당의 요리사는 유명해요.",
+                "english_translation": "The chef at this restaurant is famous."
+            },
+            {
+                "korean_sentence": "아버지는 요리사입니다.",
+                "english_translation": "My father is a chef."
+            }
+        ]
+    },
+    {
+        "korean_word": "부모님",
+        "english_meaning": "Parents",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "부모님과 함께 살아요.",
+                "english_translation": "I live with my parents."
+            },
+            {
+                "korean_sentence": "부모님을 사랑합니다.",
+                "english_translation": "I love my parents."
+            }
+        ]
+    },
+    {
+        "korean_word": "아버지",
+        "english_meaning": "Father",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "아버지는 회사에 가십니다.",
+                "english_translation": "My father goes to the company."
+            },
+            {
+                "korean_sentence": "아버지는 키가 큽니다.",
+                "english_translation": "My father is tall."
+            }
+        ]
+    },
+    {
+        "korean_word": "어머니",
+        "english_meaning": "Mother",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "어머니는 요리를 잘하십니다.",
+                "english_translation": "My mother cooks well."
+            },
+            {
+                "korean_sentence": "어머니가 보고 싶어요.",
+                "english_translation": "I miss my mother."
+            }
+        ]
+    },
+    {
+        "korean_word": "형",
+        "english_meaning": "Older brother (for males)",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "제 형은 대학생입니다.",
+                "english_translation": "My older brother is a college student."
+            },
+            {
+                "korean_sentence": "형과 같이 게임을 해요.",
+                "english_translation": "I play games with my older brother."
+            }
+        ]
+    },
+    {
+        "korean_word": "누나",
+        "english_meaning": "Older sister (for males)",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "누나는 예뻐요.",
+                "english_translation": "My older sister is pretty."
+            },
+            {
+                "korean_sentence": "누나에게 선물을 주었어요.",
+                "english_translation": "I gave a gift to my older sister."
+            }
+        ]
+    },
+    {
+        "korean_word": "오빠",
+        "english_meaning": "Older brother (for females)",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "오빠는 운동을 좋아해요.",
+                "english_translation": "My older brother likes exercising."
+            },
+            {
+                "korean_sentence": "친한 오빠를 만났어요.",
+                "english_translation": "I met a close older brother."
+            }
+        ]
+    },
+    {
+        "korean_word": "언니",
+        "english_meaning": "Older sister (for females)",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "언니와 옷을 같이 입어요.",
+                "english_translation": "I share clothes with my older sister."
+            },
+            {
+                "korean_sentence": "제 언니는 영어를 잘해요.",
+                "english_translation": "My older sister speaks English well."
+            }
+        ]
+    },
+    {
+        "korean_word": "동생",
+        "english_meaning": "Younger sibling",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "동생이 웁니다.",
+                "english_translation": "My younger sibling is crying."
+            },
+            {
+                "korean_sentence": "동생은 중학생이에요.",
+                "english_translation": "My younger sibling is a middle school student."
+            }
+        ]
+    },
+    {
+        "korean_word": "남동생",
+        "english_meaning": "Younger brother",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "남동생은 키가 작아요.",
+                "english_translation": "My younger brother is short."
+            },
+            {
+                "korean_sentence": "남동생과 축구를 했어요.",
+                "english_translation": "I played soccer with my younger brother."
+            }
+        ]
+    },
+    {
+        "korean_word": "여동생",
+        "english_meaning": "Younger sister",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "여동생은 귀여워요.",
+                "english_translation": "My younger sister is cute."
+            },
+            {
+                "korean_sentence": "여동생이 노래를 불러요.",
+                "english_translation": "My younger sister is singing."
+            }
+        ]
+    },
+    {
+        "korean_word": "할아버지",
+        "english_meaning": "Grandfather",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "할아버지께서 오셨어요.",
+                "english_translation": "Grandfather has arrived."
+            },
+            {
+                "korean_sentence": "우리 할아버지는 안경을 쓰세요.",
+                "english_translation": "My grandfather wears glasses."
+            }
+        ]
+    },
+    {
+        "korean_word": "할머니",
+        "english_meaning": "Grandmother",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "할머니는 따뜻해요.",
+                "english_translation": "Grandmother is warm-hearted."
+            },
+            {
+                "korean_sentence": "주말에 할머니 댁에 가요.",
+                "english_translation": "I go to my grandmother's house on the weekend."
+            }
+        ]
+    },
+    {
+        "korean_word": "남편",
+        "english_meaning": "Husband",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "제 남편은 요리를 잘해요.",
+                "english_translation": "My husband cooks well."
+            },
+            {
+                "korean_sentence": "남편과 영화를 봤어요.",
+                "english_translation": "I watched a movie with my husband."
+            }
+        ]
+    },
+    {
+        "korean_word": "아내",
+        "english_meaning": "Wife",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "아내가 선물을 샀어요.",
+                "english_translation": "My wife bought a gift."
+            },
+            {
+                "korean_sentence": "제 아내는 선생님입니다.",
+                "english_translation": "My wife is a teacher."
+            }
+        ]
+    },
+    {
+        "korean_word": "아들",
+        "english_meaning": "Son",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "아들이 학교에 갔어요.",
+                "english_translation": "My son went to school."
+            },
+            {
+                "korean_sentence": "우리 아들은 세 살이에요.",
+                "english_translation": "Our son is three years old."
+            }
+        ]
+    },
+    {
+        "korean_word": "딸",
+        "english_meaning": "Daughter",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "딸이 책을 읽어요.",
+                "english_translation": "My daughter is reading a book."
+            },
+            {
+                "korean_sentence": "딸과 함께 산책을 해요.",
+                "english_translation": "I take a walk with my daughter."
+            }
+        ]
+    },
+    {
+        "korean_word": "아기",
+        "english_meaning": "Baby",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "아기가 울고 있어요.",
+                "english_translation": "The baby is crying."
+            },
+            {
+                "korean_sentence": "아기가 자요.",
+                "english_translation": "The baby is sleeping."
+            }
+        ]
+    },
+    {
+        "korean_word": "남자",
+        "english_meaning": "Man",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "저 남자는 누구예요?",
+                "english_translation": "Who is that man?"
+            },
+            {
+                "korean_sentence": "교실에 남자가 많아요.",
+                "english_translation": "There are many men in the classroom."
+            }
+        ]
+    },
+    {
+        "korean_word": "여자",
+        "english_meaning": "Woman",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "여자가 차를 마셔요.",
+                "english_translation": "The woman is drinking tea."
+            },
+            {
+                "korean_sentence": "한국 여자 친구가 있어요.",
+                "english_translation": "I have a Korean girlfriend."
+            }
+        ]
+    },
+    {
+        "korean_word": "인사",
+        "english_meaning": "Greeting",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "선생님께 인사를 해요.",
+                "english_translation": "I greet the teacher."
+            },
+            {
+                "korean_sentence": "처음 만나면 인사를 합니다.",
+                "english_translation": "We exchange greetings when we meet for the first time."
+            }
+        ]
+    },
+    {
+        "korean_word": "약속",
+        "english_meaning": "Appointment / Promise",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "오늘 친구와 약속이 있어요.",
+                "english_translation": "I have an appointment with a friend today."
+            },
+            {
+                "korean_sentence": "약속 시간을 지키세요.",
+                "english_translation": "Please keep the appointment time."
+            }
+        ]
+    },
+    {
+        "korean_word": "질문",
+        "english_meaning": "Question",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "질문이 있습니까?",
+                "english_translation": "Do you have a question?"
+            },
+            {
+                "korean_sentence": "학생이 질문을 해요.",
+                "english_translation": "The student asks a question."
+            }
+        ]
+    },
+    {
+        "korean_word": "대답",
+        "english_meaning": "Answer",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "빨리 대답을 하세요.",
+                "english_translation": "Please answer quickly."
+            },
+            {
+                "korean_sentence": "질문에 대답을 썼어요.",
+                "english_translation": "I wrote the answer to the question."
+            }
+        ]
+    },
+    {
+        "korean_word": "부탁",
+        "english_meaning": "Favor / Request",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "친구에게 부탁을 했어요.",
+                "english_translation": "I asked a friend for a favor."
+            },
+            {
+                "korean_sentence": "부탁이 하나 있습니다.",
+                "english_translation": "I have one favor to ask."
+            }
+        ]
+    },
+    {
+        "korean_word": "도움",
+        "english_meaning": "Help",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "도움이 필요해요.",
+                "english_translation": "I need help."
+            },
+            {
+                "korean_sentence": "도움을 주셔서 감사합니다.",
+                "english_translation": "Thank you for giving me help."
+            }
+        ]
+    },
+    {
+        "korean_word": "선물",
+        "english_meaning": "Gift / Present",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "생일 선물을 받았어요.",
+                "english_translation": "I received a birthday gift."
+            },
+            {
+                "korean_sentence": "어머니께 선물을 드렸어요.",
+                "english_translation": "I gave a present to my mother."
+            }
+        ]
+    },
+    {
+        "korean_word": "마음",
+        "english_meaning": "Mind / Heart",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "마음이 아파요.",
+                "english_translation": "My heart hurts."
+            },
+            {
+                "korean_sentence": "그 사람은 마음이 좋아요.",
+                "english_translation": "That person has a good heart."
+            }
+        ]
+    },
+    {
+        "korean_word": "아침",
+        "english_meaning": "Morning / Breakfast",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "아침에 일찍 일어나요.",
+                "english_translation": "I wake up early in the morning."
+            },
+            {
+                "korean_sentence": "오늘 아침을 안 먹었어요.",
+                "english_translation": "I didn't eat breakfast today."
+            }
+        ]
+    },
+    {
+        "korean_word": "점심",
+        "english_meaning": "Lunch / Afternoon",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "점심 시간이 언제예요?",
+                "english_translation": "When is lunch time?"
+            },
+            {
+                "korean_sentence": "식당에서 점심을 먹어요.",
+                "english_translation": "I eat lunch at the restaurant."
+            }
+        ]
+    },
+    {
+        "korean_word": "저녁",
+        "english_meaning": "Evening / Dinner",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "저녁에 텔레비전을 봅니다.",
+                "english_translation": "I watch television in the evening."
+            },
+            {
+                "korean_sentence": "저녁을 늦게 먹었어요.",
+                "english_translation": "I ate dinner late."
+            }
+        ]
+    },
+    {
+        "korean_word": "밤",
+        "english_meaning": "Night",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "밤에 잠을 못 잤어요.",
+                "english_translation": "I couldn't sleep at night."
+            },
+            {
+                "korean_sentence": "어젯밤에 비가 왔어요.",
+                "english_translation": "It rained last night."
+            }
+        ]
+    },
+    {
+        "korean_word": "새벽",
+        "english_meaning": "Dawn",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "새벽에 일어났어요.",
+                "english_translation": "I woke up at dawn."
+            },
+            {
+                "korean_sentence": "새벽 공기가 시원해요.",
+                "english_translation": "The dawn air is cool."
+            }
+        ]
+    },
+    {
+        "korean_word": "봄",
+        "english_meaning": "Spring",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "봄에는 꽃이 펴요.",
+                "english_translation": "Flowers bloom in the spring."
+            },
+            {
+                "korean_sentence": "저는 봄을 좋아해요.",
+                "english_translation": "I like spring."
+            }
+        ]
+    },
+    {
+        "korean_word": "여름",
+        "english_meaning": "Summer",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "여름은 너무 더워요.",
+                "english_translation": "Summer is too hot."
+            },
+            {
+                "korean_sentence": "여름 방학에 여행을 가요.",
+                "english_translation": "I go on a trip during summer vacation."
+            }
+        ]
+    },
+    {
+        "korean_word": "가을",
+        "english_meaning": "Autumn / Fall",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "가을은 하늘이 높아요.",
+                "english_translation": "The sky is high in autumn."
+            },
+            {
+                "korean_sentence": "가을에 산에 갑니다.",
+                "english_translation": "I go to the mountain in the fall."
+            }
+        ]
+    },
+    {
+        "korean_word": "겨울",
+        "english_meaning": "Winter",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "겨울에는 눈이 와요.",
+                "english_translation": "It snows in winter."
+            },
+            {
+                "korean_sentence": "겨울 옷을 샀어요.",
+                "english_translation": "I bought winter clothes."
+            }
+        ]
+    },
+    {
+        "korean_word": "날씨",
+        "english_meaning": "Weather",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "오늘 날씨가 어때요?",
+                "english_translation": "How is the weather today?"
+            },
+            {
+                "korean_sentence": "날씨가 맑아요.",
+                "english_translation": "The weather is clear."
+            }
+        ]
+    },
+    {
+        "korean_word": "비",
+        "english_meaning": "Rain",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "지금 비가 옵니다.",
+                "english_translation": "It is raining now."
+            },
+            {
+                "korean_sentence": "비가 와서 우산을 써요.",
+                "english_translation": "I use an umbrella because it rains."
+            }
+        ]
+    },
+    {
+        "korean_word": "바람",
+        "english_meaning": "Wind",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "바람이 많이 불어요.",
+                "english_translation": "The wind is blowing a lot."
+            },
+            {
+                "korean_sentence": "바람이 시원해요.",
+                "english_translation": "The wind is cool."
+            }
+        ]
+    },
+    {
+        "korean_word": "구름",
+        "english_meaning": "Cloud",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "하늘에 구름이 많아요.",
+                "english_translation": "There are many clouds in the sky."
+            },
+            {
+                "korean_sentence": "구름이 예뻐요.",
+                "english_translation": "The clouds are pretty."
+            }
+        ]
+    },
+    {
+        "korean_word": "학교",
+        "english_meaning": "School",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "매일 학교에 가요.",
+                "english_translation": "I go to school every day."
+            },
+            {
+                "korean_sentence": "학교가 아주 큽니다.",
+                "english_translation": "The school is very big."
+            }
+        ]
+    },
+    {
+        "korean_word": "집",
+        "english_meaning": "House / Home",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "집에서 쉬고 있어요.",
+                "english_translation": "I am resting at home."
+            },
+            {
+                "korean_sentence": "우리 집은 멀어요.",
+                "english_translation": "Our house is far."
+            }
+        ]
+    },
+    {
+        "korean_word": "식당",
+        "english_meaning": "Restaurant",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "식당에서 밥을 먹어요.",
+                "english_translation": "I eat a meal at the restaurant."
+            },
+            {
+                "korean_sentence": "이 식당은 맛있어요.",
+                "english_translation": "This restaurant is delicious."
+            }
+        ]
+    },
+    {
+        "korean_word": "병원",
+        "english_meaning": "Hospital",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "아파서 병원에 갔어요.",
+                "english_translation": "I went to the hospital because I was sick."
+            },
+            {
+                "korean_sentence": "병원이 어디에 있어요?",
+                "english_translation": "Where is the hospital?"
+            }
+        ]
+    },
+    {
+        "korean_word": "은행",
+        "english_meaning": "Bank",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "은행에서 돈을 찾아요.",
+                "english_translation": "I withdraw money from the bank."
+            },
+            {
+                "korean_sentence": "은행이 문을 닫았어요.",
+                "english_translation": "The bank is closed."
+            }
+        ]
+    },
+    {
+        "korean_word": "우체국",
+        "english_meaning": "Post office",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "우체국에서 편지를 보내요.",
+                "english_translation": "I send a letter at the post office."
+            },
+            {
+                "korean_sentence": "우체국은 학교 옆에 있어요.",
+                "english_translation": "The post office is next to the school."
+            }
+        ]
+    },
+    {
+        "korean_word": "회사",
+        "english_meaning": "Company / Office",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "내일 회사에 안 가요.",
+                "english_translation": "I don't go to the office tomorrow."
+            },
+            {
+                "korean_sentence": "우리 회사는 서울에 있습니다.",
+                "english_translation": "Our company is in Seoul."
+            }
+        ]
+    },
+    {
+        "korean_word": "시장",
+        "english_meaning": "Market",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "시장에서 과일을 샀어요.",
+                "english_translation": "I bought fruits at the market."
+            },
+            {
+                "korean_sentence": "시장에 사람이 많아요.",
+                "english_translation": "There are many people at the market."
+            }
+        ]
+    },
+    {
+        "korean_word": "공원",
+        "english_meaning": "Park",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "공원에서 산책을 합니다.",
+                "english_translation": "I take a walk in the park."
+            },
+            {
+                "korean_sentence": "주말에 공원에 가요.",
+                "english_translation": "I go to the park on the weekend."
+            }
+        ]
+    },
+    {
+        "korean_word": "가게",
+        "english_meaning": "Store / Shop",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "가게에서 옷을 샀어요.",
+                "english_translation": "I bought clothes at the store."
+            },
+            {
+                "korean_sentence": "이 가게는 아주 쌉니다.",
+                "english_translation": "This shop is very cheap."
+            }
+        ]
+    },
+    {
+        "korean_word": "도서관",
+        "english_meaning": "Library",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "도서관에서 책을 빌려요.",
+                "english_translation": "I borrow a book from the library."
+            },
+            {
+                "korean_sentence": "도서관은 조용해요.",
+                "english_translation": "The library is quiet."
+            }
+        ]
+    },
+    {
+        "korean_word": "화장실",
+        "english_meaning": "Restroom",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "화장실이 어디예요?",
+                "english_translation": "Where is the restroom?"
+            },
+            {
+                "korean_sentence": "화장실은 2층에 있습니다.",
+                "english_translation": "The restroom is on the second floor."
+            }
+        ]
+    },
+    {
+        "korean_word": "약국",
+        "english_meaning": "Pharmacy",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "약국에서 약을 삽니다.",
+                "english_translation": "I buy medicine at the pharmacy."
+            },
+            {
+                "korean_sentence": "약국은 주말에 쉬어요.",
+                "english_translation": "The pharmacy is closed on weekends."
+            }
+        ]
+    },
+    {
+        "korean_word": "극장",
+        "english_meaning": "Theater",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "극장에서 영화를 봐요.",
+                "english_translation": "I watch a movie at the theater."
+            },
+            {
+                "korean_sentence": "극장 앞에 친구가 있어요.",
+                "english_translation": "My friend is in front of the theater."
+            }
+        ]
+    },
+    {
+        "korean_word": "영화관",
+        "english_meaning": "Cinema / Movie theater",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "영화관에 사람이 많습니다.",
+                "english_translation": "There are many people at the cinema."
+            },
+            {
+                "korean_sentence": "새로운 영화관이 생겼어요.",
+                "english_translation": "A new movie theater opened."
+            }
+        ]
+    },
+    {
+        "korean_word": "책",
+        "english_meaning": "Book",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "책을 많이 읽으세요.",
+                "english_translation": "Please read many books."
+            },
+            {
+                "korean_sentence": "이 책은 재미있어요.",
+                "english_translation": "This book is interesting."
+            }
+        ]
+    },
+    {
+        "korean_word": "공책",
+        "english_meaning": "Notebook",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "공책에 이름을 쓰세요.",
+                "english_translation": "Please write your name in the notebook."
+            },
+            {
+                "korean_sentence": "새 공책을 샀어요.",
+                "english_translation": "I bought a new notebook."
+            }
+        ]
+    },
+    {
+        "korean_word": "연필",
+        "english_meaning": "Pencil",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "연필로 글씨를 써요.",
+                "english_translation": "I write with a pencil."
+            },
+            {
+                "korean_sentence": "연필이 짧아요.",
+                "english_translation": "The pencil is short."
+            }
+        ]
+    },
+    {
+        "korean_word": "가방",
+        "english_meaning": "Bag",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "가방이 무거워요.",
+                "english_translation": "The bag is heavy."
+            },
+            {
+                "korean_sentence": "가방 안에 책이 있습니다.",
+                "english_translation": "There is a book inside the bag."
+            }
+        ]
+    },
+    {
+        "korean_word": "책상",
+        "english_meaning": "Desk",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "책상 위에 컴퓨터가 있어요.",
+                "english_translation": "There is a computer on the desk."
+            },
+            {
+                "korean_sentence": "책상을 정리했어요.",
+                "english_translation": "I organized the desk."
+            }
+        ]
+    },
+    {
+        "korean_word": "의자",
+        "english_meaning": "Chair",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "의자에 앉으세요.",
+                "english_translation": "Please sit on the chair."
+            },
+            {
+                "korean_sentence": "이 의자는 편안해요.",
+                "english_translation": "This chair is comfortable."
+            }
+        ]
+    },
+    {
+        "korean_word": "문",
+        "english_meaning": "Door",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "문을 닫아 주세요.",
+                "english_translation": "Please close the door."
+            },
+            {
+                "korean_sentence": "문이 열려 있습니다.",
+                "english_translation": "The door is open."
+            }
+        ]
+    },
+    {
+        "korean_word": "창문",
+        "english_meaning": "Window",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "창문을 열어 주세요.",
+                "english_translation": "Please open the window."
+            },
+            {
+                "korean_sentence": "창문으로 밖을 봅니다.",
+                "english_translation": "I look outside through the window."
+            }
+        ]
+    },
+    {
+        "korean_word": "시계",
+        "english_meaning": "Clock / Watch",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "벽에 시계가 있어요.",
+                "english_translation": "There is a clock on the wall."
+            },
+            {
+                "korean_sentence": "시계를 샀어요.",
+                "english_translation": "I bought a watch."
+            }
+        ]
+    },
+    {
+        "korean_word": "전화",
+        "english_meaning": "Telephone / Call",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "친구에게 전화를 했어요.",
+                "english_translation": "I made a phone call to my friend."
+            },
+            {
+                "korean_sentence": "전화 번호가 뭐예요?",
+                "english_translation": "What is your phone number?"
+            }
+        ]
+    },
+    {
+        "korean_word": "옷",
+        "english_meaning": "Clothes",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "백화점에서 옷을 샀어요.",
+                "english_translation": "I bought clothes at the department store."
+            },
+            {
+                "korean_sentence": "옷이 예뻐요.",
+                "english_translation": "The clothes are pretty."
+            }
+        ]
+    },
+    {
+        "korean_word": "신발",
+        "english_meaning": "Shoes",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "신발을 벗으세요.",
+                "english_translation": "Please take off your shoes."
+            },
+            {
+                "korean_sentence": "새 신발을 신었어요.",
+                "english_translation": "I put on new shoes."
+            }
+        ]
+    },
+    {
+        "korean_word": "물",
+        "english_meaning": "Water",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "물을 마시고 싶어요.",
+                "english_translation": "I want to drink water."
+            },
+            {
+                "korean_sentence": "따뜻한 물을 주세요.",
+                "english_translation": "Please give me some warm water."
+            }
+        ]
+    },
+    {
+        "korean_word": "돈",
+        "english_meaning": "Money",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "돈이 없어요.",
+                "english_translation": "I don't have money."
+            },
+            {
+                "korean_sentence": "돈을 많이 벌고 싶어요.",
+                "english_translation": "I want to earn a lot of money."
+            }
+        ]
+    },
+    {
+        "korean_word": "우산",
+        "english_meaning": "Umbrella",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "비가 오면 우산을 써요.",
+                "english_translation": "I use an umbrella when it rains."
+            },
+            {
+                "korean_sentence": "우산을 잃어버렸어요.",
+                "english_translation": "I lost my umbrella."
+            }
+        ]
+    },
+    {
+        "korean_word": "밥",
+        "english_meaning": "Rice / Meal",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "밥을 많이 먹었어요.",
+                "english_translation": "I ate a lot of rice (food)."
+            },
+            {
+                "korean_sentence": "이제 밥을 먹을까요?",
+                "english_translation": "Shall we eat a meal now?"
+            }
+        ]
+    },
+    {
+        "korean_word": "빵",
+        "english_meaning": "Bread",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "아침에 빵을 먹어요.",
+                "english_translation": "I eat bread in the morning."
+            },
+            {
+                "korean_sentence": "빵이 맛있어요.",
+                "english_translation": "The bread is delicious."
+            }
+        ]
+    },
+    {
+        "korean_word": "우유",
+        "english_meaning": "Milk",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "우유를 마십니다.",
+                "english_translation": "I drink milk."
+            },
+            {
+                "korean_sentence": "빵과 우유를 샀어요.",
+                "english_translation": "I bought bread and milk."
+            }
+        ]
+    },
+    {
+        "korean_word": "커피",
+        "english_meaning": "Coffee",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "커피 한 잔 주세요.",
+                "english_translation": "Please give me a cup of coffee."
+            },
+            {
+                "korean_sentence": "저는 커피를 좋아해요.",
+                "english_translation": "I like coffee."
+            }
+        ]
+    },
+    {
+        "korean_word": "차",
+        "english_meaning": "Tea / Car",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "따뜻한 차를 마셔요.",
+                "english_translation": "I drink warm tea."
+            },
+            {
+                "korean_sentence": "차가 많이 막혀요.",
+                "english_translation": "There is a lot of traffic (cars are blocked)."
+            }
+        ]
+    },
+    {
+        "korean_word": "과일",
+        "english_meaning": "Fruit",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "어떤 과일을 좋아해요?",
+                "english_translation": "What kind of fruit do you like?"
+            },
+            {
+                "korean_sentence": "시장에서 과일을 샀어요.",
+                "english_translation": "I bought fruit at the market."
+            }
+        ]
+    },
+    {
+        "korean_word": "사과",
+        "english_meaning": "Apple",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "사과가 아주 달아요.",
+                "english_translation": "The apple is very sweet."
+            },
+            {
+                "korean_sentence": "아침에 사과를 먹어요.",
+                "english_translation": "I eat an apple in the morning."
+            }
+        ]
+    },
+    {
+        "korean_word": "포도",
+        "english_meaning": "Grape",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "포도를 씻었어요.",
+                "english_translation": "I washed the grapes."
+            },
+            {
+                "korean_sentence": "포도주스를 좋아해요.",
+                "english_translation": "I like grape juice."
+            }
+        ]
+    },
+    {
+        "korean_word": "바나나",
+        "english_meaning": "Banana",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "바나나 우유를 마셨어요.",
+                "english_translation": "I drank banana milk."
+            },
+            {
+                "korean_sentence": "원숭이는 바나나를 좋아해요.",
+                "english_translation": "Monkeys like bananas."
+            }
+        ]
+    },
+    {
+        "korean_word": "딸기",
+        "english_meaning": "Strawberry",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "봄에는 딸기가 맛있어요.",
+                "english_translation": "Strawberries are delicious in spring."
+            },
+            {
+                "korean_sentence": "딸기 케이크를 먹었어요.",
+                "english_translation": "I ate strawberry cake."
+            }
+        ]
+    },
+    {
+        "korean_word": "고기",
+        "english_meaning": "Meat",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "고기를 구워 먹어요.",
+                "english_translation": "We roast and eat meat."
+            },
+            {
+                "korean_sentence": "소고기가 비싸요.",
+                "english_translation": "Beef is expensive."
+            }
+        ]
+    },
+    {
+        "korean_word": "생선",
+        "english_meaning": "Fish (for eating)",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "시장에서 생선을 샀어요.",
+                "english_translation": "I bought fish at the market."
+            },
+            {
+                "korean_sentence": "고양이가 생선을 먹어요.",
+                "english_translation": "The cat eats fish."
+            }
+        ]
+    },
+    {
+        "korean_word": "야채",
+        "english_meaning": "Vegetable",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "야채를 많이 먹어야 해요.",
+                "english_translation": "You should eat lots of vegetables."
+            },
+            {
+                "korean_sentence": "이 음식에는 야채가 없어요.",
+                "english_translation": "There are no vegetables in this food."
+            }
+        ]
+    },
+    {
+        "korean_word": "계란",
+        "english_meaning": "Egg",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "계란 프라이를 했어요.",
+                "english_translation": "I fried an egg."
+            },
+            {
+                "korean_sentence": "라면에 계란을 넣어요.",
+                "english_translation": "I put an egg in the ramen."
+            }
+        ]
+    },
+    {
+        "korean_word": "식사",
+        "english_meaning": "Meal",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "식사하셨어요?",
+                "english_translation": "Did you have a meal?"
+            },
+            {
+                "korean_sentence": "가족과 함께 식사를 해요.",
+                "english_translation": "I have a meal with my family."
+            }
+        ]
+    },
+    {
+        "korean_word": "개",
+        "english_meaning": "Dog",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "우리 집에 개가 한 마리 있어요.",
+                "english_translation": "We have one dog at our house."
+            },
+            {
+                "korean_sentence": "개가 아주 귀여워요.",
+                "english_translation": "The dog is very cute."
+            }
+        ]
+    },
+    {
+        "korean_word": "고양이",
+        "english_meaning": "Cat",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "고양이가 자고 있어요.",
+                "english_translation": "The cat is sleeping."
+            },
+            {
+                "korean_sentence": "고양이를 키우고 싶어요.",
+                "english_translation": "I want to raise a cat."
+            }
+        ]
+    },
+    {
+        "korean_word": "산",
+        "english_meaning": "Mountain",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "주말에 산에 갑니다.",
+                "english_translation": "I go to the mountain on the weekend."
+            },
+            {
+                "korean_sentence": "산이 아주 높아요.",
+                "english_translation": "The mountain is very high."
+            }
+        ]
+    },
+    {
+        "korean_word": "바다",
+        "english_meaning": "Sea / Ocean",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "여름에 바다로 여행을 가요.",
+                "english_translation": "I travel to the sea in the summer."
+            },
+            {
+                "korean_sentence": "바다가 아름다워요.",
+                "english_translation": "The sea is beautiful."
+            }
+        ]
+    },
+    {
+        "korean_word": "나무",
+        "english_meaning": "Tree",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "공원에 나무가 많아요.",
+                "english_translation": "There are many trees in the park."
+            },
+            {
+                "korean_sentence": "나무 밑에서 쉬어요.",
+                "english_translation": "I rest under the tree."
+            }
+        ]
+    }
+]

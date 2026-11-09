@@ -1,0 +1,1277 @@
+[
+    {
+        "korean_word": "경험",
+        "english_meaning": "Experience",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "다양한 경험을 해 보고 싶어요.",
+                "english_translation": "I want to have various experiences."
+            },
+            {
+                "korean_sentence": "외국에서 일한 경험이 있습니다.",
+                "english_translation": "I have experience working abroad."
+            }
+        ]
+    },
+    {
+        "korean_word": "계획",
+        "english_meaning": "Plan",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "주말 계획이 어떻게 되세요?",
+                "english_translation": "What are your plans for the weekend?"
+            },
+            {
+                "korean_sentence": "여행 계획을 세우고 있어요.",
+                "english_translation": "I am making travel plans."
+            }
+        ]
+    },
+    {
+        "korean_word": "관계",
+        "english_meaning": "Relationship",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "두 사람의 관계가 아주 좋습니다.",
+                "english_translation": "The relationship between the two is very good."
+            },
+            {
+                "korean_sentence": "스트레스는 건강과 관계가 있습니다.",
+                "english_translation": "Stress is related to health."
+            }
+        ]
+    },
+    {
+        "korean_word": "관심",
+        "english_meaning": "Interest",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "한국 역사에 관심이 많아요.",
+                "english_translation": "I have a lot of interest in Korean history."
+            },
+            {
+                "korean_sentence": "환경 문제에 관심을 가져야 합니다.",
+                "english_translation": "We should take an interest in environmental issues."
+            }
+        ]
+    },
+    {
+        "korean_word": "광고",
+        "english_meaning": "Advertisement",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "인터넷에서 광고를 봤어요.",
+                "english_translation": "I saw the advertisement on the internet."
+            },
+            {
+                "korean_sentence": "그 제품은 광고를 많이 해요.",
+                "english_translation": "That product advertises a lot."
+            }
+        ]
+    },
+    {
+        "korean_word": "교통",
+        "english_meaning": "Transportation / Traffic",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "이 도시는 교통이 편리합니다.",
+                "english_translation": "This city has convenient transportation."
+            },
+            {
+                "korean_sentence": "출근 시간에는 교통이 복잡해요.",
+                "english_translation": "Traffic is congested during rush hour."
+            }
+        ]
+    },
+    {
+        "korean_word": "규칙",
+        "english_meaning": "Rule / Regulation",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "기숙사 규칙을 잘 지켜야 합니다.",
+                "english_translation": "You must follow the dormitory rules well."
+            },
+            {
+                "korean_sentence": "학교에는 많은 규칙이 있습니다.",
+                "english_translation": "There are many rules in school."
+            }
+        ]
+    },
+    {
+        "korean_word": "기분",
+        "english_meaning": "Feeling / Mood",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "시험에 합격해서 기분이 좋아요.",
+                "english_translation": "I feel good because I passed the exam."
+            },
+            {
+                "korean_sentence": "오늘은 기분이 별로 안 좋아요.",
+                "english_translation": "I am not in a very good mood today."
+            }
+        ]
+    },
+    {
+        "korean_word": "기회",
+        "english_meaning": "Opportunity / Chance",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "좋은 기회를 놓치지 마세요.",
+                "english_translation": "Don't miss a good opportunity."
+            },
+            {
+                "korean_sentence": "다음에 다시 만날 기회가 있을 거예요.",
+                "english_translation": "There will be a chance to meet again next time."
+            }
+        ]
+    },
+    {
+        "korean_word": "노력",
+        "english_meaning": "Effort",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "성공하기 위해서는 노력이 필요해요.",
+                "english_translation": "Effort is needed in order to succeed."
+            },
+            {
+                "korean_sentence": "한국어를 잘하려고 노력하고 있어요.",
+                "english_translation": "I am making an effort to speak Korean well."
+            }
+        ]
+    },
+    {
+        "korean_word": "느낌",
+        "english_meaning": "Feeling / Impression",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "처음 만났을 때 좋은 느낌을 받았어요.",
+                "english_translation": "I got a good feeling when we first met."
+            },
+            {
+                "korean_sentence": "이 옷은 부드러운 느낌을 줍니다.",
+                "english_translation": "These clothes give a soft feel."
+            }
+        ]
+    },
+    {
+        "korean_word": "단점",
+        "english_meaning": "Weakness / Disadvantage",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "모든 사람에게는 단점이 있습니다.",
+                "english_translation": "Everyone has weaknesses."
+            },
+            {
+                "korean_sentence": "이 제품의 단점은 가격이 비싸다는 것입니다.",
+                "english_translation": "The disadvantage of this product is that it's expensive."
+            }
+        ]
+    },
+    {
+        "korean_word": "장점",
+        "english_meaning": "Advantage / Strength",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "당신의 장점은 무엇입니까?",
+                "english_translation": "What are your strengths?"
+            },
+            {
+                "korean_sentence": "온라인 쇼핑의 장점은 편리하다는 것입니다.",
+                "english_translation": "The advantage of online shopping is that it is convenient."
+            }
+        ]
+    },
+    {
+        "korean_word": "단어",
+        "english_meaning": "Vocabulary / Word",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "매일 새로운 단어를 열 개씩 외워요.",
+                "english_translation": "I memorize 10 new words every day."
+            },
+            {
+                "korean_sentence": "모르는 단어는 사전을 찾아보세요.",
+                "english_translation": "Look up words you don't know in the dictionary."
+            }
+        ]
+    },
+    {
+        "korean_word": "모임",
+        "english_meaning": "Gathering / Meeting",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "이번 주말에 동창 모임이 있습니다.",
+                "english_translation": "There is an alumni gathering this weekend."
+            },
+            {
+                "korean_sentence": "모임에 사람들이 많이 왔어요.",
+                "english_translation": "Many people came to the meeting."
+            }
+        ]
+    },
+    {
+        "korean_word": "목적",
+        "english_meaning": "Purpose / Goal",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "한국에 온 목적이 무엇입니까?",
+                "english_translation": "What is your purpose for coming to Korea?"
+            },
+            {
+                "korean_sentence": "목적을 이루기 위해 열심히 공부합니다.",
+                "english_translation": "I study hard to achieve my goal."
+            }
+        ]
+    },
+    {
+        "korean_word": "문제",
+        "english_meaning": "Problem / Question",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "수학 문제가 너무 어려워요.",
+                "english_translation": "The math problem is too difficult."
+            },
+            {
+                "korean_sentence": "큰 문제가 발생했습니다.",
+                "english_translation": "A big problem has occurred."
+            }
+        ]
+    },
+    {
+        "korean_word": "문화",
+        "english_meaning": "Culture",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "한국 문화를 배우고 싶어요.",
+                "english_translation": "I want to learn about Korean culture."
+            },
+            {
+                "korean_sentence": "나라마다 문화가 다릅니다.",
+                "english_translation": "Culture is different for every country."
+            }
+        ]
+    },
+    {
+        "korean_word": "미래",
+        "english_meaning": "Future",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "아이들은 우리의 미래입니다.",
+                "english_translation": "Children are our future."
+            },
+            {
+                "korean_sentence": "미래에 대한 계획을 세우세요.",
+                "english_translation": "Please make plans for the future."
+            }
+        ]
+    },
+    {
+        "korean_word": "방법",
+        "english_meaning": "Method / Way",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "살을 빼는 방법을 알려 주세요.",
+                "english_translation": "Please tell me a way to lose weight."
+            },
+            {
+                "korean_sentence": "다른 방법으로 문제를 해결해 봅시다.",
+                "english_translation": "Let's try to solve the problem using a different method."
+            }
+        ]
+    },
+    {
+        "korean_word": "방향",
+        "english_meaning": "Direction",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "바람의 방향이 바뀌었어요.",
+                "english_translation": "The direction of the wind has changed."
+            },
+            {
+                "korean_sentence": "어느 방향으로 가야 합니까?",
+                "english_translation": "Which direction should I go?"
+            }
+        ]
+    },
+    {
+        "korean_word": "배달",
+        "english_meaning": "Delivery",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "음식을 배달시켰어요.",
+                "english_translation": "I ordered food for delivery."
+            },
+            {
+                "korean_sentence": "요즘은 배달 서비스가 빠릅니다.",
+                "english_translation": "Delivery services are fast these days."
+            }
+        ]
+    },
+    {
+        "korean_word": "번역",
+        "english_meaning": "Translation",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "한국어 소설을 영어로 번역했어요.",
+                "english_translation": "I translated a Korean novel into English."
+            },
+            {
+                "korean_sentence": "번역 일이 쉽지 않습니다.",
+                "english_translation": "Translation work is not easy."
+            }
+        ]
+    },
+    {
+        "korean_word": "비밀",
+        "english_meaning": "Secret",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "다른 사람에게는 비밀로 해 주세요.",
+                "english_translation": "Please keep it a secret from others."
+            },
+            {
+                "korean_sentence": "우리 둘만의 비밀입니다.",
+                "english_translation": "It's a secret just between the two of us."
+            }
+        ]
+    },
+    {
+        "korean_word": "비용",
+        "english_meaning": "Cost / Expense",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "결혼식에 비용이 많이 들어요.",
+                "english_translation": "The wedding costs a lot of money."
+            },
+            {
+                "korean_sentence": "여행 비용을 줄이려고 합니다.",
+                "english_translation": "I am trying to reduce travel expenses."
+            }
+        ]
+    },
+    {
+        "korean_word": "부족",
+        "english_meaning": "Lack / Shortage",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "요즘 잠이 부족합니다.",
+                "english_translation": "I have a lack of sleep these days."
+            },
+            {
+                "korean_sentence": "경험 부족으로 실수했습니다.",
+                "english_translation": "I made a mistake due to a lack of experience."
+            }
+        ]
+    },
+    {
+        "korean_word": "분위기",
+        "english_meaning": "Atmosphere / Mood",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "이 카페는 분위기가 참 좋아요.",
+                "english_translation": "This cafe has a really nice atmosphere."
+            },
+            {
+                "korean_sentence": "회의 분위기가 심각했어요.",
+                "english_translation": "The atmosphere of the meeting was serious."
+            }
+        ]
+    },
+    {
+        "korean_word": "불만",
+        "english_meaning": "Complaint / Dissatisfaction",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "고객들의 불만이 많습니다.",
+                "english_translation": "There are many complaints from customers."
+            },
+            {
+                "korean_sentence": "회사에 불만이 있으면 말해 보세요.",
+                "english_translation": "If you have a complaint with the company, please say it."
+            }
+        ]
+    },
+    {
+        "korean_word": "사고",
+        "english_meaning": "Accident",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "어제 교통사고가 났어요.",
+                "english_translation": "There was a traffic accident yesterday."
+            },
+            {
+                "korean_sentence": "사고를 조심해야 합니다.",
+                "english_translation": "You must be careful of accidents."
+            }
+        ]
+    },
+    {
+        "korean_word": "사실",
+        "english_meaning": "Fact / Truth",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "사실을 말해 주세요.",
+                "english_translation": "Please tell me the truth."
+            },
+            {
+                "korean_sentence": "이것은 역사적 사실입니다.",
+                "english_translation": "This is a historical fact."
+            }
+        ]
+    },
+    {
+        "korean_word": "사업",
+        "english_meaning": "Business",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "새로운 사업을 시작했습니다.",
+                "english_translation": "I started a new business."
+            },
+            {
+                "korean_sentence": "사업이 잘 안 돼서 걱정입니다.",
+                "english_translation": "I'm worried because the business isn't going well."
+            }
+        ]
+    },
+    {
+        "korean_word": "사정",
+        "english_meaning": "Circumstance / Situation",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "개인적인 사정으로 회사를 그만두었습니다.",
+                "english_translation": "I quit the company due to personal circumstances."
+            },
+            {
+                "korean_sentence": "그 사람의 사정을 이해합니다.",
+                "english_translation": "I understand that person's situation."
+            }
+        ]
+    },
+    {
+        "korean_word": "사회",
+        "english_meaning": "Society",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "현대 사회는 빠르게 변합니다.",
+                "english_translation": "Modern society changes rapidly."
+            },
+            {
+                "korean_sentence": "우리 사회의 문제가 많습니다.",
+                "english_translation": "There are many problems in our society."
+            }
+        ]
+    },
+    {
+        "korean_word": "상처",
+        "english_meaning": "Wound / Scar",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "다리에 상처가 났어요.",
+                "english_translation": "I got a wound on my leg."
+            },
+            {
+                "korean_sentence": "그 말은 저에게 큰 상처가 되었습니다.",
+                "english_translation": "Those words were a big emotional wound to me."
+            }
+        ]
+    },
+    {
+        "korean_word": "상품",
+        "english_meaning": "Product / Goods",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "이 상품은 아주 인기가 많습니다.",
+                "english_translation": "This product is very popular."
+            },
+            {
+                "korean_sentence": "상품을 주문한 지 일주일이 지났어요.",
+                "english_translation": "It has been a week since I ordered the goods."
+            }
+        ]
+    },
+    {
+        "korean_word": "선택",
+        "english_meaning": "Choice / Selection",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "자유롭게 선택할 수 있습니다.",
+                "english_translation": "You can choose freely."
+            },
+            {
+                "korean_sentence": "어려운 선택을 해야 합니다.",
+                "english_translation": "I have to make a difficult choice."
+            }
+        ]
+    },
+    {
+        "korean_word": "설명",
+        "english_meaning": "Explanation",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "선생님의 설명을 잘 들으세요.",
+                "english_translation": "Please listen carefully to the teacher's explanation."
+            },
+            {
+                "korean_sentence": "기계 사용 방법을 설명해 주세요.",
+                "english_translation": "Please explain how to use the machine."
+            }
+        ]
+    },
+    {
+        "korean_word": "성격",
+        "english_meaning": "Personality",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "제 친구는 성격이 밝고 좋습니다.",
+                "english_translation": "My friend has a bright and good personality."
+            },
+            {
+                "korean_sentence": "사람마다 성격이 다릅니다.",
+                "english_translation": "Everyone has a different personality."
+            }
+        ]
+    },
+    {
+        "korean_word": "성공",
+        "english_meaning": "Success",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "그 프로젝트는 성공으로 끝났습니다.",
+                "english_translation": "That project ended in success."
+            },
+            {
+                "korean_sentence": "성공하려면 열심히 노력해야 합니다.",
+                "english_translation": "To succeed, you must work hard."
+            }
+        ]
+    },
+    {
+        "korean_word": "습관",
+        "english_meaning": "Habit",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "나쁜 습관을 고치고 싶어요.",
+                "english_translation": "I want to fix my bad habits."
+            },
+            {
+                "korean_sentence": "일찍 일어나는 것은 좋은 습관입니다.",
+                "english_translation": "Waking up early is a good habit."
+            }
+        ]
+    },
+    {
+        "korean_word": "시력",
+        "english_meaning": "Eyesight",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "스마트폰을 많이 봐서 시력이 나빠졌어요.",
+                "english_translation": "My eyesight got worse from looking at my smartphone a lot."
+            },
+            {
+                "korean_sentence": "시력 검사를 받으러 안과에 갑니다.",
+                "english_translation": "I am going to the eye clinic to get a vision test."
+            }
+        ]
+    },
+    {
+        "korean_word": "실수",
+        "english_meaning": "Mistake",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "누구나 실수를 할 수 있습니다.",
+                "english_translation": "Anyone can make a mistake."
+            },
+            {
+                "korean_sentence": "시험에서 큰 실수를 했어요.",
+                "english_translation": "I made a big mistake on the test."
+            }
+        ]
+    },
+    {
+        "korean_word": "쓰레기",
+        "english_meaning": "Garbage / Trash",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "쓰레기는 휴지통에 버리세요.",
+                "english_translation": "Please throw your trash in the trash can."
+            },
+            {
+                "korean_sentence": "길에 쓰레기가 너무 많아요.",
+                "english_translation": "There is too much garbage on the street."
+            }
+        ]
+    },
+    {
+        "korean_word": "약점",
+        "english_meaning": "Weakness / Weak point",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "자신의 약점을 잘 알아야 합니다.",
+                "english_translation": "You must know your own weaknesses well."
+            },
+            {
+                "korean_sentence": "그 팀은 방어가 약점입니다.",
+                "english_translation": "That team's weakness is their defense."
+            }
+        ]
+    },
+    {
+        "korean_word": "여유",
+        "english_meaning": "Leisure / Spare time",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "요즘 일이 많아서 쉴 여유가 없어요.",
+                "english_translation": "I have so much work these days that I have no spare time to rest."
+            },
+            {
+                "korean_sentence": "시간적 여유가 생기면 여행을 가고 싶어요.",
+                "english_translation": "If I get some free time, I want to go on a trip."
+            }
+        ]
+    },
+    {
+        "korean_word": "연락",
+        "english_meaning": "Contact / Communication",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "도착하면 연락해 주세요.",
+                "english_translation": "Please contact me when you arrive."
+            },
+            {
+                "korean_sentence": "오랫동안 친구와 연락이 끊겼어요.",
+                "english_translation": "I lost contact with my friend for a long time."
+            }
+        ]
+    },
+    {
+        "korean_word": "연세",
+        "english_meaning": "Age (honorific)",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "할아버지, 연세가 어떻게 되세요?",
+                "english_translation": "Grandfather, how old are you?"
+            },
+            {
+                "korean_sentence": "저희 부모님은 연세가 많으십니다.",
+                "english_translation": "My parents are quite elderly."
+            }
+        ]
+    },
+    {
+        "korean_word": "오해",
+        "english_meaning": "Misunderstanding",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "친구와 오해가 생겼어요.",
+                "english_translation": "A misunderstanding arose with my friend."
+            },
+            {
+                "korean_sentence": "그것은 오해입니다.",
+                "english_translation": "That is a misunderstanding."
+            }
+        ]
+    },
+    {
+        "korean_word": "온도",
+        "english_meaning": "Temperature",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "실내 온도를 적당히 유지하세요.",
+                "english_translation": "Please maintain a proper indoor temperature."
+            },
+            {
+                "korean_sentence": "오늘 아침 기온이 영하로 떨어졌어요.",
+                "english_translation": "The temperature dropped below zero this morning."
+            }
+        ]
+    },
+    {
+        "korean_word": "완성",
+        "english_meaning": "Completion",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "드디어 보고서를 완성했습니다.",
+                "english_translation": "I finally completed the report."
+            },
+            {
+                "korean_sentence": "건물 완성이 한 달 늦어졌어요.",
+                "english_translation": "The completion of the building was delayed by a month."
+            }
+        ]
+    },
+    {
+        "korean_word": "요구",
+        "english_meaning": "Demand / Request",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "고객의 요구에 맞게 제품을 수정했습니다.",
+                "english_translation": "We modified the product to meet the customer's demands."
+            },
+            {
+                "korean_sentence": "무리한 요구를 거절할 수밖에 없었어요.",
+                "english_translation": "I had no choice but to refuse the unreasonable request."
+            }
+        ]
+    },
+    {
+        "korean_word": "용기",
+        "english_meaning": "Courage",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "실패를 두려워하지 않는 용기가 필요합니다.",
+                "english_translation": "You need the courage to not fear failure."
+            },
+            {
+                "korean_sentence": "친구의 응원 덕분에 용기를 얻었어요.",
+                "english_translation": "I gained courage thanks to my friend's support."
+            }
+        ]
+    },
+    {
+        "korean_word": "우승",
+        "english_meaning": "Championship / Victory",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "우리 팀이 대회에서 우승을 차지했습니다.",
+                "english_translation": "Our team won the championship in the tournament."
+            },
+            {
+                "korean_sentence": "우승 후보들이 모두 탈락했어요.",
+                "english_translation": "All the championship favorites have been eliminated."
+            }
+        ]
+    },
+    {
+        "korean_word": "우울증",
+        "english_meaning": "Depression",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "요즘 우울증을 겪는 사람들이 늘고 있습니다.",
+                "english_translation": "The number of people suffering from depression is increasing these days."
+            },
+            {
+                "korean_sentence": "햇빛을 쬐는 것은 우울증 예방에 좋습니다.",
+                "english_translation": "Getting sunlight is good for preventing depression."
+            }
+        ]
+    },
+    {
+        "korean_word": "우정",
+        "english_meaning": "Friendship",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "두 사람의 우정은 영원할 것입니다.",
+                "english_translation": "The friendship between the two will last forever."
+            },
+            {
+                "korean_sentence": "돈보다 우정이 더 중요하다고 생각해요.",
+                "english_translation": "I think friendship is more important than money."
+            }
+        ]
+    },
+    {
+        "korean_word": "우주",
+        "english_meaning": "Universe / Space",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "어릴 때 우주 비행사가 되는 것이 꿈이었어요.",
+                "english_translation": "When I was young, my dream was to become an astronaut."
+            },
+            {
+                "korean_sentence": "우주에는 아직 밝혀지지 않은 비밀이 많습니다.",
+                "english_translation": "There are many undiscovered secrets in the universe."
+            }
+        ]
+    },
+    {
+        "korean_word": "운명",
+        "english_meaning": "Destiny / Fate",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "우리가 여기서 만난 것은 운명 같아요.",
+                "english_translation": "It feels like destiny that we met here."
+            },
+            {
+                "korean_sentence": "사람은 스스로 자신의 운명을 개척할 수 있습니다.",
+                "english_translation": "People can pioneer their own destiny."
+            }
+        ]
+    },
+    {
+        "korean_word": "원인",
+        "english_meaning": "Cause / Reason",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "경찰이 사고의 원인을 조사하고 있습니다.",
+                "english_translation": "The police are investigating the cause of the accident."
+            },
+            {
+                "korean_sentence": "실패의 원인을 분석해야 다음 번에 성공할 수 있어요.",
+                "english_translation": "You must analyze the cause of failure to succeed next time."
+            }
+        ]
+    },
+    {
+        "korean_word": "위기",
+        "english_meaning": "Crisis",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "회사가 큰 경제적 위기를 맞았습니다.",
+                "english_translation": "The company faced a great economic crisis."
+            },
+            {
+                "korean_sentence": "위기를 기회로 바꾸는 지혜가 필요합니다.",
+                "english_translation": "We need the wisdom to turn a crisis into an opportunity."
+            }
+        ]
+    },
+    {
+        "korean_word": "위로",
+        "english_meaning": "Comfort / Consolation",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "친구의 따뜻한 말이 큰 위로가 되었습니다.",
+                "english_translation": "My friend's warm words were a great comfort."
+            },
+            {
+                "korean_sentence": "슬퍼하는 그녀를 위로해 주었어요.",
+                "english_translation": "I consoled her as she was grieving."
+            }
+        ]
+    },
+    {
+        "korean_word": "위반",
+        "english_meaning": "Violation / Breach",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "교통 규칙 위반으로 벌금을 냈어요.",
+                "english_translation": "I paid a fine for a traffic rule violation."
+            },
+            {
+                "korean_sentence": "계약 위반 시에는 책임을 져야 합니다.",
+                "english_translation": "You must take responsibility in case of a breach of contract."
+            }
+        ]
+    },
+    {
+        "korean_word": "위치",
+        "english_meaning": "Position / Location",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "지도를 보고 현재 위치를 확인하세요.",
+                "english_translation": "Look at the map and check your current location."
+            },
+            {
+                "korean_sentence": "새로 이사한 집은 위치가 아주 좋아요.",
+                "english_translation": "The newly moved-in house has a very good location."
+            }
+        ]
+    },
+    {
+        "korean_word": "유지",
+        "english_meaning": "Maintenance / Keeping",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "건강을 유지하려면 꾸준히 운동해야 합니다.",
+                "english_translation": "To maintain your health, you must exercise consistently."
+            },
+            {
+                "korean_sentence": "두 나라는 평화적인 관계를 유지하고 있습니다.",
+                "english_translation": "The two countries are maintaining a peaceful relationship."
+            }
+        ]
+    },
+    {
+        "korean_word": "유행",
+        "english_meaning": "Trend / Fashion",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "이 옷은 작년에 유행했던 스타일이에요.",
+                "english_translation": "These clothes are a style that was in fashion last year."
+            },
+            {
+                "korean_sentence": "젊은이들 사이에서 짧은 머리가 유행입니다.",
+                "english_translation": "Short hair is a trend among young people."
+            }
+        ]
+    },
+    {
+        "korean_word": "의견",
+        "english_meaning": "Opinion",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "회의에서 다양한 의견이 나왔습니다.",
+                "english_translation": "Various opinions were brought up during the meeting."
+            },
+            {
+                "korean_sentence": "그 문제에 대한 여러분의 의견을 듣고 싶습니다.",
+                "english_translation": "I would like to hear everyone's opinion on that issue."
+            }
+        ]
+    },
+    {
+        "korean_word": "의무",
+        "english_meaning": "Duty / Obligation",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "국민이라면 세금을 낼 의무가 있습니다.",
+                "english_translation": "If you are a citizen, you have the duty to pay taxes."
+            },
+            {
+                "korean_sentence": "부모는 자녀를 돌볼 의무가 있어요.",
+                "english_translation": "Parents have an obligation to take care of their children."
+            }
+        ]
+    },
+    {
+        "korean_word": "의사소통",
+        "english_meaning": "Communication",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "외국인과 원활한 의사소통을 위해 영어를 배웁니다.",
+                "english_translation": "I learn English for smooth communication with foreigners."
+            },
+            {
+                "korean_sentence": "부부 사이에는 의사소통이 가장 중요해요.",
+                "english_translation": "Communication is the most important thing between a married couple."
+            }
+        ]
+    },
+    {
+        "korean_word": "의식",
+        "english_meaning": "Consciousness / Awareness",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "사고로 잠시 의식을 잃었습니다.",
+                "english_translation": "I briefly lost consciousness due to the accident."
+            },
+            {
+                "korean_sentence": "환경 보호에 대한 사람들의 의식이 높아졌어요.",
+                "english_translation": "People's awareness regarding environmental protection has increased."
+            }
+        ]
+    },
+    {
+        "korean_word": "의심",
+        "english_meaning": "Doubt / Suspicion",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "그의 말은 의심할 여지가 없습니다.",
+                "english_translation": "There is no room for doubt in his words."
+            },
+            {
+                "korean_sentence": "경찰은 그 사람을 범인으로 의심하고 있어요.",
+                "english_translation": "The police suspect that person to be the culprit."
+            }
+        ]
+    },
+    {
+        "korean_word": "의미",
+        "english_meaning": "Meaning / Significance",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "이 단어의 정확한 의미를 모르겠어요.",
+                "english_translation": "I don't know the exact meaning of this word."
+            },
+            {
+                "korean_sentence": "봉사활동은 제 삶에 큰 의미를 줍니다.",
+                "english_translation": "Volunteer work gives a big meaning to my life."
+            }
+        ]
+    },
+    {
+        "korean_word": "이기적",
+        "english_meaning": "Selfish",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "자기만 생각하는 이기적인 행동은 피해야 합니다.",
+                "english_translation": "You should avoid selfish behavior that only considers yourself."
+            },
+            {
+                "korean_sentence": "그는 너무 이기적이라서 친구가 없어요.",
+                "english_translation": "He is so selfish that he has no friends."
+            }
+        ]
+    },
+    {
+        "korean_word": "이익",
+        "english_meaning": "Profit / Benefit",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "회사는 올해 큰 이익을 남겼습니다.",
+                "english_translation": "The company left a large profit this year."
+            },
+            {
+                "korean_sentence": "개인의 이익보다 공공의 이익이 우선입니다.",
+                "english_translation": "Public benefit takes precedence over personal profit."
+            }
+        ]
+    },
+    {
+        "korean_word": "이해",
+        "english_meaning": "Understanding / Comprehension",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "서로의 차이를 이해하는 것이 중요합니다.",
+                "english_translation": "It is important to understand each other's differences."
+            },
+            {
+                "korean_sentence": "설명이 너무 어려워서 이해가 안 가요.",
+                "english_translation": "The explanation is so difficult that I don't understand."
+            }
+        ]
+    },
+    {
+        "korean_word": "인간",
+        "english_meaning": "Human being / Person",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "인간은 생각하는 동물입니다.",
+                "english_translation": "Humans are thinking animals."
+            },
+            {
+                "korean_sentence": "기계가 인간의 일을 대신하고 있어요.",
+                "english_translation": "Machines are replacing human jobs."
+            }
+        ]
+    },
+    {
+        "korean_word": "인상",
+        "english_meaning": "Impression",
+        "word_type": "noun",
+        "level": "TOPIK 2",
+        "difficulty": "easy",
+        "examples": [
+            {
+                "korean_sentence": "그분은 첫인상이 아주 좋았어요.",
+                "english_translation": "His/Her first impression was very good."
+            },
+            {
+                "korean_sentence": "웃는 얼굴이 깊은 인상을 남겼습니다.",
+                "english_translation": "The smiling face left a deep impression."
+            }
+        ]
+    }
+]

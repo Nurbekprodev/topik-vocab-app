@@ -1,0 +1,1702 @@
+[
+    {
+        "korean_word": "복잡하다",
+        "english_meaning": "To be complicated / To be crowded",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "주말에는 지하철에 사람이 많아서 복잡합니다.",
+                "english_translation": "On weekends, the subway is crowded because there are many people."
+            },
+            {
+                "korean_sentence": "이 문제는 규칙이 조금 복잡해요.",
+                "english_translation": "This problem has slightly complicated rules."
+            }
+        ]
+    },
+    {
+        "korean_word": "부탁하다",
+        "english_meaning": "To ask a favor / To request",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "친구에게 내일 도움을 부탁했어요.",
+                "english_translation": "I asked my friend for help tomorrow."
+            },
+            {
+                "korean_sentence": "선생님께 다시 한번 설명을 부탁드렸습니다.",
+                "english_translation": "I requested an explanation from the teacher once more."
+            }
+        ]
+    },
+    {
+        "korean_word": "불편하다",
+        "english_meaning": "To be uncomfortable / To be inconvenient",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "이 신발은 작아서 발이 불편해요.",
+                "english_translation": "These shoes are small, so my feet are uncomfortable."
+            },
+            {
+                "korean_sentence": "버스가 자주 없어서 이동하기에 불편합니다.",
+                "english_translation": "It is inconvenient to get around because there are not many buses."
+            }
+        ]
+    },
+    {
+        "korean_word": "신청하다",
+        "english_meaning": "To apply for / To sign up for",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "다음 주까지 한국어 수업을 신청해야 해요.",
+                "english_translation": "I have to apply for the Korean class by next week."
+            },
+            {
+                "korean_sentence": "인터넷으로 신용카드를 신청했습니다.",
+                "english_translation": "I applied for a credit card online."
+            }
+        ]
+    },
+    {
+        "korean_word": "실례하다",
+        "english_meaning": "To excuse oneself / To commit a rudeness",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "실례지만 근처에 은행이 어디에 있어요?",
+                "english_translation": "Excuse me, but where is there a bank nearby?"
+            },
+            {
+                "korean_sentence": "늦게 전화해서 정말 실례했습니다.",
+                "english_translation": "I am truly sorry for being rude by calling late."
+            }
+        ]
+    },
+    {
+        "korean_word": "약속하다",
+        "english_meaning": "To promise / To make an appointment",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "주말에 친구와 만나기로 약속했어요.",
+                "english_translation": "I made an appointment to meet my friend over the weekend."
+            },
+            {
+                "korean_sentence": "다시는 늦지 않겠다고 약속했습니다.",
+                "english_translation": "I promised that I would never be late again."
+            }
+        ]
+    },
+    {
+        "korean_word": "어려운",
+        "english_meaning": "Difficult (modifying form of 어렵다)",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "시험에 어려운 단어가 많이 나왔어요.",
+                "english_translation": "Many difficult words appeared on the exam."
+            },
+            {
+                "korean_sentence": "어려운 일을 함께 해결했습니다.",
+                "english_translation": "We solved the difficult task together."
+            }
+        ]
+    },
+    {
+        "korean_word": "예약하다",
+        "english_meaning": "To reserve / To book",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "여행을 가기 전에 비행기표를 예약했어요.",
+                "english_translation": "I booked airplane tickets before going on the trip."
+            },
+            {
+                "korean_sentence": "인기 있는 식당이라 미리 테이블을 예약했습니다.",
+                "english_translation": "It is a popular restaurant, so I reserved a table in advance."
+            }
+        ]
+    },
+    {
+        "korean_word": "오래되다",
+        "english_meaning": "To be old (for objects/time)",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "이 건물은 지은 지 아주 오래되었어요.",
+                "english_translation": "It has been a very long time since this building was built."
+            },
+            {
+                "korean_sentence": "오래된 물건을 버리지 않고 모으는 편입니다.",
+                "english_translation": "I tend to collect old items without throwing them away."
+            }
+        ]
+    },
+    {
+        "korean_word": "외출하다",
+        "english_meaning": "To go out",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "추우니까 옷을 따뜻하게 입고 외출하세요.",
+                "english_translation": "It is cold, so dress warmly when you go out."
+            },
+            {
+                "korean_sentence": "부모님께서는 지금 외출 중이십니다.",
+                "english_translation": "My parents are currently out."
+            }
+        ]
+    },
+    {
+        "korean_word": "이삿짐",
+        "english_meaning": "Moving luggage / Belongings to move",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "내일 이삿짐을 정리해야 해서 바쁩니다.",
+                "english_translation": "I am busy tomorrow because I have to organize my moving luggage."
+            },
+            {
+                "korean_sentence": "트럭에 이삿짐을 가득 실었어요.",
+                "english_translation": "We loaded the truck full of moving luggage."
+            }
+        ]
+    },
+    {
+        "korean_word": "이용하다",
+        "english_meaning": "To use / To make use of",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "학교에 올 때 지하철을 이용합니다.",
+                "english_translation": "I use the subway when coming to school."
+            },
+            {
+                "korean_sentence": "도서관을 이용하는 규칙을 지켜 주세요.",
+                "english_translation": "Please observe the rules for using the library."
+            }
+        ]
+    },
+    {
+        "korean_word": "이해하다",
+        "english_meaning": "To understand",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "선생님의 설명을 쉽게 이해했어요.",
+                "english_translation": "I easily understood the teacher's explanation."
+            },
+            {
+                "korean_sentence": "상대방의 입장도 이해하려고 노력합니다.",
+                "english_translation": "I try to understand the other person's position as well."
+            }
+        ]
+    },
+    {
+        "korean_word": "인터넷",
+        "english_meaning": "Internet",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "인터넷으로 필요한 정보를 찾았습니다.",
+                "english_translation": "I found the necessary information on the internet."
+            },
+            {
+                "korean_sentence": "요즘은 인터넷으로 쇼핑을 많이 해요.",
+                "english_translation": "These days, people shop a lot over the internet."
+            }
+        ]
+    },
+    {
+        "korean_word": "입장료",
+        "english_meaning": "Admission fee",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "박물관 입장료가 얼마예요?",
+                "english_translation": "How much is the admission fee for the museum?"
+            },
+            {
+                "korean_sentence": "어린이는 입장료가 무료입니다.",
+                "english_translation": "Admission is free for children."
+            }
+        ]
+    },
+    {
+        "korean_word": "전화번호",
+        "english_meaning": "Phone number",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "여기 종이에 전화번호를 적어 주세요.",
+                "english_translation": "Please write your phone number down on this paper."
+            },
+            {
+                "korean_sentence": "식당 전화번호를 몰라서 검색했어요.",
+                "english_translation": "I didn't know the restaurant's phone number, so I searched for it."
+            }
+        ]
+    },
+    {
+        "korean_word": "정리하다",
+        "english_meaning": "To organize / To clean up",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "공부가 끝난 후에 책상을 정리했어요.",
+                "english_translation": "I organized my desk after I finished studying."
+            },
+            {
+                "korean_sentence": "생각을 정리할 시간이 필요합니다.",
+                "english_translation": "I need time to organize my thoughts."
+            }
+        ]
+    },
+    {
+        "korean_word": "조심스럽다",
+        "english_meaning": "To be cautious / To be careful",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "그분께 질문하기가 조금 조심스러워요.",
+                "english_translation": "I am a bit cautious about asking that person a question."
+            },
+            {
+                "korean_sentence": "그녀는 유리 컵을 조심스럽게 옮겼습니다.",
+                "english_translation": "She cautiously moved the glass cup."
+            }
+        ]
+    },
+    {
+        "korean_word": "준비하다",
+        "english_meaning": "To prepare / To get ready",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "내일 시험을 위해서 열심히 준비했어요.",
+                "english_translation": "I prepared hard for tomorrow's exam."
+            },
+            {
+                "korean_sentence": "저녁 식사를 같이 준비합시다.",
+                "english_translation": "Let's prepare dinner together."
+            }
+        ]
+    },
+    {
+        "korean_word": "중요하다",
+        "english_meaning": "To be important",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "건강을 지키는 것은 매우 중요합니다.",
+                "english_translation": "Maintaining your health is very important."
+            },
+            {
+                "korean_sentence": "오늘 중요한 회의가 있습니다.",
+                "english_translation": "There is an important meeting today."
+            }
+        ]
+    },
+    {
+        "korean_word": "직접",
+        "english_meaning": "Directly / In person / Yourself",
+        "word_type": "adverb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "이 케이크는 제가 직접 만들었어요.",
+                "english_translation": "I made this cake myself."
+            },
+            {
+                "korean_sentence": "궁금한 것은 가서 직접 물어보세요.",
+                "english_translation": "Go ask in person about what you are curious about."
+            }
+        ]
+    },
+    {
+        "korean_word": "출발하다",
+        "english_meaning": "To depart / To leave",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "기차가 10분 후에 출발합니다.",
+                "english_translation": "The train departs in 10 minutes."
+            },
+            {
+                "korean_sentence": "늦지 않게 지금 바로 출발하세요.",
+                "english_translation": "Depart right now so you won't be late."
+            }
+        ]
+    },
+    {
+        "korean_word": "취소하다",
+        "english_meaning": "To cancel",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "갑자기 일이 생겨서 약속을 취소했어요.",
+                "english_translation": "Something came up suddenly, so I cancelled the appointment."
+            },
+            {
+                "korean_sentence": "호텔 예약을 인터넷으로 취소했습니다.",
+                "english_translation": "I cancelled the hotel reservation online."
+            }
+        ]
+    },
+    {
+        "korean_word": "포장하다",
+        "english_meaning": "To wrap / To pack (food to go)",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "선물을 예쁜 종이로 포장했어요.",
+                "english_translation": "I wrapped the gift with pretty paper."
+            },
+            {
+                "korean_sentence": "음식이 남아서 집으로 포장해 갔습니다.",
+                "english_translation": "There was leftover food, so I had it packed to take home."
+            }
+        ]
+    },
+    {
+        "korean_word": "환영하다",
+        "english_meaning": "To welcome",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "새로 온 학생들을 진심으로 환영합니다.",
+                "english_translation": "We sincerely welcome the new students."
+            },
+            {
+                "korean_sentence": "공항에서 친구들이 나를 환영해 주었어요.",
+                "english_translation": "My friends welcomed me at the airport."
+            }
+        ]
+    },
+    {
+        "korean_word": "구경하다",
+        "english_meaning": "To look around / To sightsee",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "주말에 전통 시장을 구경했어요.",
+                "english_translation": "I looked around the traditional market over the weekend."
+            },
+            {
+                "korean_sentence": "박물관 안에서 다양한 유물을 구경했습니다.",
+                "english_translation": "I sight-saw various artifacts inside the museum."
+            }
+        ]
+    },
+    {
+        "korean_word": "궁금하다",
+        "english_meaning": "To be curious / To wonder",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "그 영화의 결말이 너무 궁금해요.",
+                "english_translation": "I am very curious about the ending of that movie."
+            },
+            {
+                "korean_sentence": "친구에게 궁금한 점을 물어보았습니다.",
+                "english_translation": "I asked my friend about the things I wondered."
+            }
+        ]
+    },
+    {
+        "korean_word": "기억하다",
+        "english_meaning": "To remember",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "선생님의 이름을 아직 기억하고 있어요.",
+                "english_translation": "I still remember the teacher's name."
+            },
+            {
+                "korean_sentence": "중요한 약속 날짜를 꼭 기억하세요.",
+                "english_translation": "Make sure to remember the important appointment date."
+            }
+        ]
+    },
+    {
+        "korean_word": "계산하다",
+        "english_meaning": "To pay / To calculate",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "카운터에서 신용카드로 계산했어요.",
+                "english_translation": "I paid with a credit card at the counter."
+            },
+            {
+                "korean_sentence": "전체 비용이 얼마인지 계산해 보겠습니다.",
+                "english_translation": "I will calculate how much the total cost is."
+            }
+        ]
+    },
+    {
+        "korean_word": "경험하다",
+        "english_meaning": "To experience",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "한국에서 다양한 문화를 경험하고 싶어요.",
+                "english_translation": "I want to experience various cultures in Korea."
+            },
+            {
+                "korean_sentence": "새로운 일을 경험하는 것은 항상 즐겁습니다.",
+                "english_translation": "Experiencing new things is always enjoyable."
+            }
+        ]
+    },
+    {
+        "korean_word": "구하다",
+        "english_meaning": "To look for / To get / To save",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "학교 근처에서 살 집을 구하고 있어요.",
+                "english_translation": "I am looking for a house to live in near the school."
+            },
+            {
+                "korean_sentence": "위험에 처한 사람을 경찰이 구했습니다.",
+                "english_translation": "The police saved the person in danger."
+            }
+        ]
+    },
+    {
+        "korean_word": "그립다",
+        "english_meaning": "To miss / To long for",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "혼자 살다 보니 고향 음식이 그립네요.",
+                "english_translation": "Living alone makes me miss home food."
+            },
+            {
+                "korean_sentence": "어릴 적 친구들이 정말 립습니다.",
+                "english_translation": "I really long for my childhood friends."
+            }
+        ]
+    },
+    {
+        "korean_word": "남기다",
+        "english_meaning": "To leave (behind) / To leave (over)",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "음식을 남기지 말고 다 드세요.",
+                "english_translation": "Eat everything without leaving any food behind."
+            },
+            {
+                "korean_sentence": "메모지에 연락처를 남기고 나왔습니다.",
+                "english_translation": "I left my contact information on a notepad and came out."
+            }
+        ]
+    },
+    {
+        "korean_word": "답답하다",
+        "english_meaning": "To feel stuffy / To feel frustrated",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "창문이 없어서 방 안이 답답해요.",
+                "english_translation": "There are no windows, so it feels stuffy inside the room."
+            },
+            {
+                "korean_sentence": "일이 잘 풀리지 않아서 마음이 답답합니다.",
+                "english_translation": "Things aren't going well, so I feel frustrated."
+            }
+        ]
+    },
+    {
+        "korean_word": "도착하다",
+        "english_meaning": "To arrive",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "비행기가 제시간에 공항에 도착했어요.",
+                "english_translation": "The airplane arrived at the airport on time."
+            },
+            {
+                "korean_sentence": "집에 도착하면 바로 연락해 주세요.",
+                "english_translation": "Please contact me as soon as you arrive home."
+            }
+        ]
+    },
+    {
+        "korean_word": "마지막",
+        "english_meaning": "Last / Final",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "오늘이 이번 학기의 마지막 수업입니다.",
+                "english_translation": "Today is the last class of this semester."
+            },
+            {
+                "korean_sentence": "기차의 마지막 칸에 탔어요.",
+                "english_translation": "I boarded the final car of the train."
+            }
+        ]
+    },
+    {
+        "korean_word": "복습하다",
+        "english_meaning": "To review (lessons)",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "수업이 끝난 후 오늘 배운 내용을 복습해요.",
+                "english_translation": "After class, I review the content I learned today."
+            },
+            {
+                "korean_sentence": "매일 복습하는 습관이 공부에 도움이 됩니다.",
+                "english_translation": "The habit of reviewing every day helps with studying."
+            }
+        ]
+    },
+    {
+        "korean_word": "부족하다",
+        "english_meaning": "To be lacking / To be insufficient",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "시간이 부족해서 문제를 다 못 풀었어요.",
+                "english_translation": "I didn't have enough time, so I couldn't solve all the questions."
+            },
+            {
+                "korean_sentence": "아직 한국어 실력이 많이 부족합니다.",
+                "english_translation": "My Korean skills are still very insufficient."
+            }
+        ]
+    },
+    {
+        "korean_word": "비교하다",
+        "english_meaning": "To compare",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "두 상품의 가격과 품질을 비교해 보세요.",
+                "english_translation": "Try comparing the price and quality of the two products."
+            },
+            {
+                "korean_sentence": "다른 사람과 자신을 비교하지 마세요.",
+                "english_translation": "Do not compare yourself with others."
+            }
+        ]
+    },
+    {
+        "korean_word": "사고나다",
+        "english_meaning": "To have an accident",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "비 오는 날에는 도로에서 사고나기 쉽습니다.",
+                "english_translation": "It is easy to have an accident on the road on rainy days."
+            },
+            {
+                "korean_sentence": "조심해서 운전하지 않으면 큰 사고가 날 수 있어요.",
+                "english_translation": "If you don't drive carefully, a big accident can happen."
+            }
+        ]
+    },
+    {
+        "korean_word": "선택하다",
+        "english_meaning": "To choose / To select",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "마음에 드는 색상을 직접 선택하세요.",
+                "english_translation": "Choose the color you like yourself."
+            },
+            {
+                "korean_sentence": "전공을 선택할 때는 신중해야 합니다.",
+                "english_translation": "You must be careful when selecting your major."
+            }
+        ]
+    },
+    {
+        "korean_word": "소개하다",
+        "english_meaning": "To introduce",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "친구들에게 새로 들어온 동료를 소개했어요.",
+                "english_translation": "I introduced the new colleague to my friends."
+            },
+            {
+                "korean_sentence": "자기소개를 한국어로 작성해 보세요.",
+                "english_translation": "Try writing your self-introduction in Korean."
+            }
+        ]
+    },
+    {
+        "korean_word": "안내하다",
+        "english_meaning": "To guide / To inform",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "직원이 박물관 관람 코스를 안내해 주었습니다.",
+                "english_translation": "The staff guided us through the museum tour course."
+            },
+            {
+                "korean_sentence": "이용 방법에 대해 친절하게 안내해 드릴게요.",
+                "english_translation": "I will kindly inform you about how to use it."
+            }
+        ]
+    },
+    {
+        "korean_word": "약속",
+        "english_meaning": "Appointment / Promise",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "오늘 저녁에 친구와 선약이 있어요.",
+                "english_translation": "I have a prior appointment with a friend this evening."
+            },
+            {
+                "korean_sentence": "한번 한 약속은 반드시 지켜야 합니다.",
+                "english_translation": "Once made, a promise must be kept."
+            }
+        ]
+    },
+    {
+        "korean_word": "연락처",
+        "english_meaning": "Contact information",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "바뀐 연락처를 이메일로 보내 주세요.",
+                "english_translation": "Please send your changed contact information by email."
+            },
+            {
+                "korean_sentence": "명함에 적힌 연락처로 전화를 걸었습니다.",
+                "english_translation": "I called the contact information written on the business card."
+            }
+        ]
+    },
+    {
+        "korean_word": "예습하다",
+        "english_meaning": "To prepare lessons",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "내일 수업할 단어를 미리 예습했어요.",
+                "english_translation": "I prepared the words for tomorrow's class in advance."
+            },
+            {
+                "korean_sentence": "예습을 하고 수업을 들으면 더 이해가 잘 됩니다.",
+                "english_translation": "If you prepare for lessons and take the class, you will understand much better."
+            }
+        ]
+    },
+    {
+        "korean_word": "오래",
+        "english_meaning": "For a long time",
+        "word_type": "adverb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "오랫동안 기다리게 해서 죄송합니다.",
+                "english_translation": "I am sorry for making you wait for a long time."
+            },
+            {
+                "korean_sentence": "이 옷은 오래 입어도 색이 변하지 않아요.",
+                "english_translation": "Even if you wear these clothes for a long time, the color doesn't change."
+            }
+        ]
+    },
+    {
+        "korean_word": "이상하다",
+        "english_meaning": "To be strange / To be weird",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "밖에서 이상한 소리가 들려서 나갔어요.",
+                "english_translation": "I heard a strange noise outside, so I went out."
+            },
+            {
+                "korean_sentence": "컴퓨터 화면이 갑자기 이상하게 변했습니다.",
+                "english_translation": "The computer screen suddenly turned weird."
+            }
+        ]
+    },
+    {
+        "korean_word": "이해되다",
+        "english_meaning": "To be understood",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "선생님의 자세한 설명 덕분에 잘 이해되었어요.",
+                "english_translation": "Thanks to the teacher's detailed explanation, it was well understood."
+            },
+            {
+                "korean_sentence": "그 사람의 행동이 전혀 이해되지 않습니다.",
+                "english_translation": "That person's behavior is not understood at all."
+            }
+        ]
+    },
+    {
+        "korean_word": "확인하다",
+        "english_meaning": "To check / To confirm",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "이메일을 받고 내용을 다시 확인했습니다.",
+                "english_translation": "After receiving the email, I checked the content again."
+            },
+            {
+                "korean_sentence": "비행기 표의 이름을 정확하게 확인해 주세요.",
+                "english_translation": "Please confirm the name on the flight ticket accurately."
+            }
+        ]
+    },
+    {
+        "korean_word": "이용자",
+        "english_meaning": "User",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "이 도서관은 이용자가 매우 많습니다.",
+                "english_translation": "This library has very many users."
+            },
+            {
+                "korean_sentence": "서비스 이용자를 위한 이벤트가 열렸어요.",
+                "english_translation": "An event was held for service users."
+            }
+        ]
+    },
+    {
+        "korean_word": "인기",
+        "english_meaning": "Popularity",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "이 노래는 젊은 사람들에게 인기가 많아요.",
+                "english_translation": "This song is very popular among young people."
+            },
+            {
+                "korean_sentence": "배우가 드라마 방송 후 인기를 얻었습니다.",
+                "english_translation": "The actor gained popularity after the drama aired."
+            }
+        ]
+    },
+    {
+        "korean_word": "인형",
+        "english_meaning": "Doll / Stuffed animal",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "생일에 귀여운 곰 인형을 선물받았어요.",
+                "english_translation": "I received a cute teddy bear doll as a gift for my birthday."
+            },
+            {
+                "korean_sentence": "아이들이 인형을 가지고 방에서 놀고 있습니다.",
+                "english_translation": "The children are playing in the room with dolls."
+            }
+        ]
+    },
+    {
+        "korean_word": "자랑하다",
+        "english_meaning": "To show off / To boast",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "친구들에게 새 신발을 자랑했어요.",
+                "english_translation": "I showed off my new shoes to my friends."
+            },
+            {
+                "korean_sentence": "어머니께서 제 시험 성적을 자랑하셨습니다.",
+                "english_translation": "My mother boasted about my test scores."
+            }
+        ]
+    },
+    {
+        "korean_word": "자유롭다",
+        "english_meaning": "To be free",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "주말에는 자유롭게 시간을 보낼 수 있어요.",
+                "english_translation": "On weekends, I can spend my time freely."
+            },
+            {
+                "korean_sentence": "여기는 분위기가 매우 자유롭습니다.",
+                "english_translation": "The atmosphere here is very free."
+            }
+        ]
+    },
+    {
+        "korean_word": "작품",
+        "english_meaning": "Work (of art/literature)",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "미술관에서 유명한 화가의 작품을 관람했어요.",
+                "english_translation": "I viewed a famous painter's work at the art museum."
+            },
+            {
+                "korean_sentence": "이 소설은 작가의 대표 작품입니다.",
+                "english_translation": "This novel is the author's representative work."
+            }
+        ]
+    },
+    {
+        "korean_word": "잔돈",
+        "english_meaning": "Change (coins/small bills)",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "지불하고 남은 잔돈을 주머니에 넣었어요.",
+                "english_translation": "I put the remaining change in my pocket."
+            },
+            {
+                "korean_sentence": "버스를 타려면 잔돈이 필요합니다.",
+                "english_translation": "You need small change to take the bus."
+            }
+        ]
+    },
+    {
+        "korean_word": "잠시",
+        "english_meaning": "For a moment / A short time",
+        "word_type": "adverb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "잠시만 자리에서 기다려 주세요.",
+                "english_translation": "Please wait in your seat for just a moment."
+            },
+            {
+                "korean_sentence": "전화를 받으려고 잠시 밖으로 나갔습니다.",
+                "english_translation": "I went outside for a short time to answer the phone."
+            }
+        ]
+    },
+    {
+        "korean_word": "잡아먹다",
+        "english_meaning": "To prey on / To eat up",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "사자가 들소를 잡아먹는 장면을 보았어요.",
+                "english_translation": "I saw a scene of a lion preying on a bison."
+            },
+            {
+                "korean_sentence": "동화 속 늑대가 아기 염소를 잡아먹으려 했어요.",
+                "english_translation": "The wolf in the fairy tale tried to eat up the baby goat."
+            }
+        ]
+    },
+    {
+        "korean_word": "전망",
+        "english_meaning": "View / Prospect",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "전망대에 올라가서 도시의 아름다운 전망을 보았어요.",
+                "english_translation": "I went up to the observatory and looked at the city's beautiful view."
+            },
+            {
+                "korean_sentence": "이 방은 산이 보여서 전망이 좋습니다.",
+                "english_translation": "This room has a good view because you can see the mountain."
+            }
+        ]
+    },
+    {
+        "korean_word": "전통",
+        "english_meaning": "Tradition",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "명절에는 한국의 전통 옷인 한복을 입습니다.",
+                "english_translation": "On holidays, we wear hanbok, Korea's traditional clothing."
+            },
+            {
+                "korean_sentence": "이 마을은 오랜 전통을 유지하고 있어요.",
+                "english_translation": "This village maintains a long tradition."
+            }
+        ]
+    },
+    {
+        "korean_word": "절대",
+        "english_meaning": "Never / Absolutely (with negative)",
+        "word_type": "adverb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "이 비밀은 절대 다른 사람에게 말하지 마세요.",
+                "english_translation": "Please never tell this secret to anyone else."
+            },
+            {
+                "korean_sentence": "수업 시간에 절대 늦지 않겠습니다.",
+                "english_translation": "I will absolutely not be late for class."
+            }
+        ]
+    },
+    {
+        "korean_word": "젊다",
+        "english_meaning": "To be young",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "우리 삼촌은 나이에 비해 매우 젊어 보여요.",
+                "english_translation": "My uncle looks very young for his age."
+            },
+            {
+                "korean_sentence": "젊을 때 다양한 경험을 해보는 것이 좋습니다.",
+                "english_translation": "It is good to try various experiences when you are young."
+            }
+        ]
+    },
+    {
+        "korean_word": "접수하다",
+        "english_meaning": "To register / To receive (applications)",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "오늘부터 시험 응시 원서를 접수합니다.",
+                "english_translation": "We receive exam applications starting today."
+            },
+            {
+                "korean_sentence": "창구에서 서류를 성공적으로 접수했어요.",
+                "english_translation": "I successfully registered the documents at the counter."
+            }
+        ]
+    },
+    {
+        "korean_word": "정성",
+        "english_meaning": "Sincerity / Heartfelt care",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "어머니께서 정성껏 만드신 음식을 먹었습니다.",
+                "english_translation": "I ate the food my mother prepared with heartfelt care."
+            },
+            {
+                "korean_sentence": "작은 선물이지만 정성을 담아 준비했어요.",
+                "english_translation": "It is a small gift, but I prepared it with sincerity."
+            }
+        ]
+    },
+    {
+        "korean_word": "제공하다",
+        "english_meaning": "To provide / To offer",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "호텔에서 아침 식사를 무료로 제공합니다.",
+                "english_translation": "The hotel offers breakfast for free."
+            },
+            {
+                "korean_sentence": "고객들에게 더 나은 서비스를 제공하려고 노력해요.",
+                "english_translation": "We try to provide better service to our customers."
+            }
+        ]
+    },
+    {
+        "korean_word": "제안하다",
+        "english_meaning": "To suggest / To propose",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "회의에서 새로운 프로젝트 아이디어를 제안했어요.",
+                "english_translation": "I proposed a new project idea during the meeting."
+            },
+            {
+                "korean_sentence": "친구에게 주말에 같이 여행 가자고 제안했습니다.",
+                "english_translation": "I suggested to my friend that we go on a trip together on the weekend."
+            }
+        ]
+    },
+    {
+        "korean_word": "조사하다",
+        "english_meaning": "To investigate / To survey",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "경찰이 사고의 원인을 상세히 조사하고 있어요.",
+                "english_translation": "The police are investigating the cause of the accident in detail."
+            },
+            {
+                "korean_sentence": "학생들의 만족도를 알아보기 위해 설문을 조사했습니다.",
+                "english_translation": "We surveyed students to find out their level of satisfaction."
+            }
+        ]
+    },
+    {
+        "korean_word": "주변",
+        "english_meaning": "Surroundings / Nearby area",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "집 주변에 큰 공원과 마트가 있어서 편리해요.",
+                "english_translation": "It is convenient because there is a large park and a mart around my house."
+            },
+            {
+                "korean_sentence": "길을 잃어서 주변을 둘러보았습니다.",
+                "english_translation": "I was lost, so I looked around my surroundings."
+            }
+        ]
+    },
+    {
+        "korean_word": "지나치다",
+        "english_meaning": "To pass by / To go too far (excessive)",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "생각을 하느라 내릴 버스 정류장을 지나쳤어요.",
+                "english_translation": "I passed by the bus stop I was supposed to get off at while thinking."
+            },
+            {
+                "korean_sentence": "지나친 운동은 오히려 건강에 안 좋을 수 있습니다.",
+                "english_translation": "Excessive exercise can actually be bad for your health."
+            }
+        ]
+    },
+    {
+        "korean_word": "지불하다",
+        "english_meaning": "To pay",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "식당에서 현금으로 식사 비용을 지불했습니다.",
+                "english_translation": "I paid the cost of the meal in cash at the restaurant."
+            },
+            {
+                "korean_sentence": "인터넷으로 물건을 사고 요금을 지불했어요.",
+                "english_translation": "I bought an item online and paid the charge."
+            }
+        ]
+    },
+    {
+        "korean_word": "직원",
+        "english_meaning": "Employee / Staff member",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "회사에 새로운 직원이 들어왔습니다.",
+                "english_translation": "A new employee joined the company."
+            },
+            {
+                "korean_sentence": "가게 직원이 손님에게 친절하게 인사했어요.",
+                "english_translation": "The shop staff kindly greeted the customer."
+            }
+        ]
+    },
+    {
+        "korean_word": "진행되다",
+        "english_meaning": "To progress / To proceed",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "행사가 일정대로 잘 진행되고 있습니다.",
+                "english_translation": "The event is proceeding well according to schedule."
+            },
+            {
+                "korean_sentence": "공사가 차질 없이 진행되길 바랍니다.",
+                "english_translation": "I hope the construction progresses without a hitch."
+            }
+        ]
+    },
+    {
+        "korean_word": "참석하다",
+        "english_meaning": "To attend / To participate in",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "내일 친구의 결혼식에 참석할 예정입니다.",
+                "english_translation": "I plan to attend my friend's wedding tomorrow."
+            },
+            {
+                "korean_sentence": "중요한 회의라서 모든 팀원이 참석했습니다.",
+                "english_translation": "Because it was an important meeting, all team members attended."
+            }
+        ]
+    },
+    {
+        "korean_word": "체험하다",
+        "english_meaning": "To experience (hands-on)",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "마을에서 도자기를 만드는 것을 직접 체험했어요.",
+                "english_translation": "I directly experienced making pottery in the village."
+            },
+            {
+                "korean_sentence": "외국인 관광객들이 한국 전통문화를 체험했습니다.",
+                "english_translation": "Foreign tourists experienced traditional Korean culture hands-on."
+            }
+        ]
+    },
+    {
+        "korean_word": "추천하다",
+        "english_meaning": "To recommend",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "점원이 가장 인기 있는 메뉴를 추천해 주었어요.",
+                "english_translation": "The clerk recommended the most popular menu item."
+            },
+            {
+                "korean_sentence": "친구에게 읽기 좋은 책을 한 권 추천했습니다.",
+                "english_translation": "I recommended a good book to my friend."
+            }
+        ]
+    },
+    {
+        "korean_word": "출입문",
+        "english_meaning": "Entrance / Exit door",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "지하철 출입문이 닫힐 때는 조심해야 합니다.",
+                "english_translation": "You must be careful when the subway doors close."
+            },
+            {
+                "korean_sentence": "건물 출입구 앞에 차를 세우지 마세요.",
+                "english_translation": "Please do not park your car in front of the building entrance."
+            }
+        ]
+    },
+    {
+        "korean_word": "취미",
+        "english_meaning": "Hobby",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "제 취미는 주말마다 음악을 듣는 것입니다.",
+                "english_translation": "My hobby is listening to music every weekend."
+            },
+            {
+                "korean_sentence": "새로운 취미로 사진 찍기를 시작했어요.",
+                "english_translation": "I started taking photos as a new hobby."
+            }
+        ]
+    },
+    {
+        "korean_word": "특별하다",
+        "english_meaning": "To be special",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "오늘은 제 생일이라서 아주 특별한 날입니다.",
+                "english_translation": "Today is my birthday, so it is a very special day."
+            },
+            {
+                "korean_sentence": "손님을 위해 특별한 요리를 준비했어요.",
+                "english_translation": "I prepared a special dish for the guest."
+            }
+        ]
+    },
+    {
+        "korean_word": "판매하다",
+        "english_meaning": "To sell",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "이 가게에서는 신선한 과일만 판매합니다.",
+                "english_translation": "This shop sells only fresh fruit."
+            },
+            {
+                "korean_sentence": "인터넷으로 중고 물건을 판매했어요.",
+                "english_translation": "I sold secondhand items over the internet."
+            }
+        ]
+    },
+    {
+        "korean_word": "편리",
+        "english_meaning": "Convenience",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "교통의 편리함 때문에 이 동네가 좋아요.",
+                "english_translation": "I like this neighborhood because of the convenience of transportation."
+            },
+            {
+                "korean_sentence": "생활의 편리를 위해 다양한 가전제품을 사용합니다.",
+                "english_translation": "We use various home appliances for the convenience of life."
+            }
+        ]
+    },
+    {
+        "korean_word": "표현하다",
+        "english_meaning": "To express",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "감사한 마음을 솔직하게 표현하세요.",
+                "english_translation": "Express your grateful heart honestly."
+            },
+            {
+                "korean_sentence": "그림으로 자신의 감정을 표현했습니다.",
+                "english_translation": "She expressed her feelings through painting."
+            }
+        ]
+    },
+    {
+        "korean_word": "피해",
+        "english_meaning": "Damage / Harm",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "태풍으로 인해 큰 피해를 입었습니다.",
+                "english_translation": "We suffered great damage due to the typhoon."
+            },
+            {
+                "korean_sentence": "다른 사람에게 피해를 주지 않도록 주의하세요.",
+                "english_translation": "Be careful not to cause harm to others."
+            }
+        ]
+    },
+    {
+        "korean_word": "해결하다",
+        "english_meaning": "To solve / To resolve",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "서로 대화를 통해 문제를 해결했습니다.",
+                "english_translation": "We solved the problem through conversation with each other."
+            },
+            {
+                "korean_sentence": "어려운 상황을 지혜롭게 해결했어요.",
+                "english_translation": "He resolved the difficult situation wisely."
+            }
+        ]
+    },
+    {
+        "korean_word": "행사",
+        "english_meaning": "Event / Function",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "이번 주말에 학교에서 문화 행사가 열려요.",
+                "english_translation": "A cultural event is being held at the school this weekend."
+            },
+            {
+                "korean_sentence": "많은 사람들이 지역 축제 행사에 참여했습니다.",
+                "english_translation": "Many people participated in the local festival event."
+            }
+        ]
+    },
+    {
+        "korean_word": "허락하다",
+        "english_meaning": "To permit / To allow",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "부모님이 친구들과의 여행을 허락해 주셨어요.",
+                "english_translation": "My parents permitted my trip with friends."
+            },
+            {
+                "korean_sentence": "선생님의 허락 없이 밖으로 나갈 수 없습니다.",
+                "english_translation": "You cannot go outside without the teacher's permission."
+            }
+        ]
+    },
+    {
+        "korean_word": "현금",
+        "english_meaning": "Cash",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "지갑에 현금이 없어서 카드로 지불했어요.",
+                "english_translation": "I had no cash in my wallet, so I paid with a card."
+            },
+            {
+                "korean_sentence": "전통 시장에서는 현금을 사용하는 편입니다.",
+                "english_translation": "In traditional markets, I tend to use cash."
+            }
+        ]
+    },
+    {
+        "korean_word": "현재",
+        "english_meaning": "Present / Currently",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "현재 공사가 진행 중이라 지나갈 수 없습니다.",
+                "english_translation": "Currently, construction is in progress, so you cannot pass."
+            },
+            {
+                "korean_sentence": "과거보다 현재의 삶에 집중하는 것이 중요해요.",
+                "english_translation": "It is important to focus on your present life rather than the past."
+            }
+        ]
+    },
+    {
+        "korean_word": "협조하다",
+        "english_meaning": "To cooperate",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "모두가 협조하여 청소를 빨리 마쳤습니다.",
+                "english_translation": "Everyone cooperated and finished cleaning quickly."
+            },
+            {
+                "korean_sentence": "안안전을 위해 안내 방송에 협조해 주세요.",
+                "english_translation": "Please cooperate with the announcements for safety."
+            }
+        ]
+    },
+    {
+        "korean_word": "확인되다",
+        "english_meaning": "To be confirmed / To be checked",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "예약 내역이 성공적으로 확인되었습니다.",
+                "english_translation": "The reservation details have been successfully confirmed."
+            },
+            {
+                "korean_sentence": "신원이 확인된 후 입장이 가능합니다.",
+                "english_translation": "Admission is possible after identity is confirmed."
+            }
+        ]
+    },
+    {
+        "korean_word": "환불하다",
+        "english_meaning": "To refund / To get a refund",
+        "word_type": "verb",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "옷이 마음에 들지 않아서 매장에 가 환불했어요.",
+                "english_translation": "I didn't like the clothes, so I went to the store and got a refund."
+            },
+            {
+                "korean_sentence": "영수증을 가져오시면 환불해 드립니다.",
+                "english_translation": "If you bring the receipt, we will refund it."
+            }
+        ]
+    },
+    {
+        "korean_word": "활동",
+        "english_meaning": "Activity",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "주말마다 봉사 활동을 하고 있습니다.",
+                "english_translation": "I am doing volunteer activity every weekend."
+            },
+            {
+                "korean_sentence": "야외 활동을 하기에 딱 좋은 날씨예요.",
+                "english_translation": "The weather is perfect for outdoor activities."
+            }
+        ]
+    },
+    {
+        "korean_word": "희망",
+        "english_meaning": "Hope / Wish",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "어려운 상황에서도 희망을 잃지 마세요.",
+                "english_translation": "Do not lose hope even in difficult situations."
+            },
+            {
+                "korean_sentence": "미래에 대한 희망을 품고 살아갑니다.",
+                "english_translation": "I live holding onto hope for the future."
+            }
+        ]
+    },
+    {
+        "korean_word": "힘차다",
+        "english_meaning": "To be energetic / To be powerful",
+        "word_type": "adjective",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "선수들이 힘찬 목소리로 구호를 외쳤어요.",
+                "english_translation": "The athletes shouted slogans in energetic voices."
+            },
+            {
+                "korean_sentence": "월요일 아침을 힘차게 시작해 봅시다.",
+                "english_translation": "Let's start Monday morning powerfully."
+            }
+        ]
+    },
+    {
+        "korean_word": "가치",
+        "english_meaning": "Value / Worth",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "시간은 돈으로 살 수 없는 높은 가치를 가집니다.",
+                "english_translation": "Time holds high value that cannot be bought with money."
+            },
+            {
+                "korean_sentence": "이 작품은 역사적 가치가 큽니다.",
+                "english_translation": "This artwork has great historical value."
+            }
+        ]
+    },
+    {
+        "korean_word": "감동",
+        "english_meaning": "Emotion / Impression",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "영화의 이야기가 깊은 감동을 주었어요.",
+                "english_translation": "The movie's story gave a deep impression."
+            },
+            {
+                "korean_sentence": "친구의 편지를 읽고 감동을 받았습니다.",
+                "english_translation": "I was moved after reading my friend's letter."
+            }
+        ]
+    },
+    {
+        "korean_word": "결과",
+        "english_meaning": "Result / Outcome",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "열심히 노력한 만큼 좋은 결과가 나왔어요.",
+                "english_translation": "A good result came out as much as I worked hard."
+            },
+            {
+                "korean_sentence": "시험 결과를 기다리는 중입니다.",
+                "english_translation": "I am currently waiting for the test results."
+            }
+        ]
+    },
+    {
+        "korean_word": "경쟁",
+        "english_meaning": "Competition",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "회사 입사 시험은 경쟁이 매우 치열해요.",
+                "english_translation": "The company entrance exam has very fierce competition."
+            },
+            {
+                "korean_sentence": "선의의 경쟁을 통해 서로 발전할 수 있습니다.",
+                "english_translation": "We can develop together through good-natured competition."
+            }
+        ]
+    },
+    {
+        "korean_word": "고민",
+        "english_meaning": "Worry / Concern",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "요즘 진로에 대한 고민이 많습니다.",
+                "english_translation": "I have many worries about my career path these days."
+            },
+            {
+                "korean_sentence": "혼자 고민하지 말고 친구에게 털어놓으세요.",
+                "english_translation": "Do not worry alone, open up to your friend."
+            }
+        ]
+    },
+    {
+        "korean_word": "관계자",
+        "english_meaning": "Person concerned / Official",
+        "word_type": "noun",
+        "level": "TOPIK 1",
+        "difficulty": "hard",
+        "examples": [
+            {
+                "korean_sentence": "이곳은 관계자 외 출입 금지 구역입니다.",
+                "english_translation": "This is a restricted area except for authorized personnel."
+            },
+            {
+                "korean_sentence": "행사 관계자가 참가자들에게 안내를 해 주었습니다.",
+                "english_translation": "The event official provided guidance to the participants."
+            }
+        ]
+    }
+    ]

@@ -8,18 +8,15 @@
 
     {{-- Header --}}
     <div>
-        <p class="text-sm font-semibold text-blue-600">
+        <p class="text-sm font-semibold tracking-wider text-blue-600">
             YOUR LEARNING SPACE
         </p>
 
         <h1 class="mt-2 text-3xl font-bold tracking-tight text-slate-900">
             What would you like to study?
         </h1>
-
-        <p class="mt-2 text-slate-500">
-            Pick up where you left off or start something new.
-        </p>
     </div>
+
 
 
 
@@ -36,31 +33,59 @@
                 Ready to learn some Korean?
             </h2>
 
-            <p class="mt-2 leading-7 text-slate-400">
-                Choose how many words you want to study in this session.
-            </p>
+            
 
-            <form action="{{ route('vocabulary.learn') }}" method="GET" class="mt-7">
+            <form action="{{ route('vocabulary.learn') }}" method="GET" class="mt-8">
 
-                <div class="flex flex-wrap gap-3">
+                {{-- TOPIK Level --}}
+                <div class="mb-6">
+                    <p class="mb-3 text-sm font-medium text-slate-300">
+                        TOPIK level
+                    </p>
 
-                    @foreach ([5, 10, 20, 30] as $count)
-                        <label class="cursor-pointer">
-                            <input
-                                type="radio"
-                                name="words"
-                                value="{{ $count }}"
-                                class="peer sr-only"
-                                {{ $count === 10 ? 'checked' : '' }}
-                            >
+                    <div class="flex flex-wrap gap-2">
+                        @foreach (['all' => 'All levels', '1' => 'TOPIK 1', '2' => 'TOPIK 2'] as $value => $label)
+                            <label class="cursor-pointer">
+                                <input
+                                    type="radio"
+                                    name="level"
+                                    value="{{ $value }}"
+                                    class="peer sr-only"
+                                    {{ $value === 'all' ? 'checked' : '' }}
+                                >
 
-                            <span class="flex min-w-[76px] flex-col items-center rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-white transition hover:bg-white/10 peer-checked:border-blue-400 peer-checked:bg-blue-500/20 peer-checked:ring-1 peer-checked:ring-blue-400">
-                                <span class="text-xl font-bold">{{ $count }}</span>
-                                <span class="mt-0.5 text-xs text-slate-400">words</span>
-                            </span>
-                        </label>
-                    @endforeach
+                                <span class="inline-flex rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-sm font-medium text-slate-300 transition hover:bg-white/10 peer-checked:border-blue-400 peer-checked:bg-blue-500/20 peer-checked:text-white">
+                                    {{ $label }}
+                                </span>
+                            </label>
+                        @endforeach
+                    </div>
+                </div>
 
+                {{-- Word Count --}}
+                <div>
+                    <p class="mb-3 text-sm font-medium text-slate-300">
+                        Words per session
+                    </p>
+
+                    <div class="flex flex-wrap gap-3">
+                        @foreach ([5, 10, 20, 30] as $count)
+                            <label class="cursor-pointer">
+                                <input
+                                    type="radio"
+                                    name="words"
+                                    value="{{ $count }}"
+                                    class="peer sr-only"
+                                    {{ $count === 10 ? 'checked' : '' }}
+                                >
+
+                                <span class="flex min-w-[76px] flex-col items-center rounded-xl border border-white/15 bg-white/5 px-5 py-3 text-white transition hover:bg-white/10 peer-checked:border-blue-400 peer-checked:bg-blue-500/20 peer-checked:ring-1 peer-checked:ring-blue-400">
+                                    <span class="text-xl font-bold">{{ $count }}</span>
+                                    <span class="mt-0.5 text-xs text-slate-400">words</span>
+                                </span>
+                            </label>
+                        @endforeach
+                    </div>
                 </div>
 
                 <button
@@ -75,6 +100,7 @@
 
         </div>
 
+        {{-- Decorative element --}}
         <div class="pointer-events-none absolute -right-12 -top-16 hidden h-80 w-80 items-center justify-center rounded-full border border-white/10 md:flex">
             <div class="flex h-60 w-60 items-center justify-center rounded-full border border-white/10">
                 <div class="flex h-40 w-40 items-center justify-center rounded-full bg-white/5">
@@ -84,6 +110,7 @@
         </div>
 
     </section>
+
 
 
 

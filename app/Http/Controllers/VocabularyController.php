@@ -61,10 +61,11 @@ public function learn(Request $request)
 {
     $userId = 1; // Temporary until authentication
 
-    // Starting a new session when a word count is selected.
-    if ($request->has('words')) {
+    // Validate selected options
+    if ($request->has('words') || $request->has('level')) {
         $request->validate([
-            'words' => ['required', 'integer', 'in:5,10,20,30'],
+            'words' => ['sometimes', 'required', 'integer', 'in:5,10,20,30'],
+            'level' => ['sometimes', 'required', 'in:all,1,2'],
         ]);
 
         session()->forget([
@@ -73,15 +74,24 @@ public function learn(Request $request)
         ]);
     }
 
-    // Create a session if one does not already exist.
+    // Create a new session
     if (!session()->has('vocabulary_session_ids')) {
+
         $wordCount = (int) $request->input('words', 10);
+        $level = $request->input('level', 'all');
 
         $knownWordIds = UserVocabularyProgress::where('user_id', $userId)
             ->where('status', 'known')
             ->pluck('vocabulary_id');
 
-        $wordIds = Vocabulary::whereNotIn('id', $knownWordIds)
+        $query = Vocabulary::whereNotIn('id', $knownWordIds);
+
+        // Filter by TOPIK level
+        if ($level !== 'all') {
+            $query->where('level', 'TOPIK ' . $level);
+        }
+
+        $wordIds = $query
             ->inRandomOrder()
             ->limit($wordCount)
             ->pluck('id')
@@ -95,7 +105,6 @@ public function learn(Request $request)
     $index = (int) session('vocabulary_session_index', 0);
     $totalWords = count($wordIds);
 
-    // End the session when every selected word has been answered.
     if ($index >= $totalWords) {
         return view('vocabulary.complete', [
             'totalWords' => $totalWords,
@@ -104,9 +113,9 @@ public function learn(Request $request)
 
     $word = Vocabulary::with('examples')->findOrFail($wordIds[$index]);
 
-    $bookmarkedIds = Bookmark::where('user_id', 1)
-    ->pluck('vocabulary_id')
-    ->toArray();
+    $bookmarkedIds = Bookmark::where('user_id', $userId)
+        ->pluck('vocabulary_id')
+        ->toArray();
 
     return view('vocabulary.learn', [
         'word' => $word,
