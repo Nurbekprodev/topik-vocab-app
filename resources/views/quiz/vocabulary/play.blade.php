@@ -1,20 +1,14 @@
-
 @extends('layouts.app')
 
 @section('title', 'Recommended Vocabulary Quiz')
 
 @section('content')
 
-<div class="min-h-screen bg-slate-50 text-slate-900 pb-32">
+<div class="min-h-screen bg-slate-50 text-slate-900">
 
     {{-- Progress Header --}}
     <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
-        <div class="mx-auto flex max-w-xl items-center gap-4 px-4 py-4">
-
-            <!-- <a href="{{ route('quiz.index') }}"
-               class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100">
-                <i class="fa-solid fa-arrow-left text-lg"></i>
-            </a> -->
+        <div class="mx-auto flex max-w-xl items-center gap-4 px-4 py-2 sm:py-4">
 
             <div class="min-w-0 flex-1">
 
@@ -38,7 +32,7 @@
         </div>
     </header>
 
-    <main class="mx-auto w-full max-w-xl px-4 pt-10 sm:pt-14">
+    <main class="mx-auto w-full max-w-xl px-4 pt-0 sm:pt-10">
 
         <form id="quiz-form"
               action="{{ route('quiz.vocabulary.result') }}"
@@ -54,19 +48,11 @@
                 >
 
                     {{-- Question Information --}}
-                    <div class="mb-10 text-center">
+                    <div class="mb-6 text-center sm:mb-10">
 
-                        <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1.5 text-xs font-bold uppercase tracking-wide text-blue-700">
-                            Question {{ $index + 1 }}
-                        </span>
-
-                        <h1 class="mt-8 break-words text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
+                        <h1 class="mt-4 break-words text-4xl font-extrabold tracking-tight text-slate-900 sm:mt-8 sm:text-6xl">
                             {{ $question['korean_word'] }}
                         </h1>
-
-                        <p class="mt-4 text-sm text-slate-500">
-                            Choose the correct English meaning.
-                        </p>
 
                     </div>
 
@@ -80,15 +66,15 @@
                     {{-- Answer Options --}}
                     <fieldset>
 
-                        <legend class="mb-4 text-sm font-semibold text-slate-700">
+                        <legend class="mb-3 text-sm font-semibold text-slate-700 sm:mb-4">
                             Select your answer
                         </legend>
 
-                        <div class="space-y-3">
+                        <div class="space-y-2 sm:space-y-3">
 
                             @foreach($question['options'] as $optionIndex => $option)
 
-                                <label class="group flex cursor-pointer items-center gap-4 rounded-2xl border border-slate-200 bg-white px-4 py-4 transition-all duration-200 hover:border-blue-300 hover:bg-blue-50/40 has-[:checked]:border-blue-500 has-[:checked]:bg-blue-50">
+                                <label class="group flex cursor-pointer items-center gap-4 rounded-2xl border border-slate-200 bg-white px-4 py-3 transition-all duration-200 hover:border-blue-300 hover:bg-blue-50/40 has-[:checked]:border-blue-500 has-[:checked]:bg-blue-50">
 
                                     <input
                                         type="radio"
@@ -143,12 +129,12 @@
             @if(count($questions) > 0)
 
                 {{-- Navigation --}}
-                <div class="mt-10 flex items-center gap-3">
+                <div class="mt-5 flex items-center gap-3 sm:mt-10">
 
                     <button
                         type="button"
                         id="previous-btn"
-                        class="flex min-h-14 items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-5 text-sm font-bold text-slate-600 transition hover:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-40"
+                        class="flex min-h-12 items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 text-sm font-bold text-slate-600 transition hover:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-40 sm:min-h-14 sm:px-5"
                         disabled
                     >
                         <i class="fa-solid fa-arrow-left"></i>
@@ -158,7 +144,7 @@
                     <button
                         type="button"
                         id="next-btn"
-                        class="flex min-h-14 flex-1 items-center justify-center gap-2 rounded-2xl bg-blue-600 px-5 text-sm font-bold text-white shadow-lg shadow-blue-600/20 transition hover:bg-blue-700 active:scale-[0.99]"
+                        class="flex min-h-12 flex-1 items-center justify-center gap-2 rounded-2xl bg-blue-600 px-5 text-sm font-bold text-white shadow-lg shadow-blue-600/20 transition hover:bg-blue-700 active:scale-[0.99] sm:min-h-14"
                     >
                         Next question
                         <i class="fa-solid fa-arrow-right"></i>
@@ -167,7 +153,7 @@
                     <button
                         type="submit"
                         id="submit-btn"
-                        class="hidden min-h-14 flex-1 items-center justify-center gap-2 rounded-2xl bg-blue-600 px-5 text-sm font-bold text-white shadow-lg shadow-blue-600/20 transition hover:bg-blue-700 active:scale-[0.99]"
+                        class="hidden min-h-12 flex-1 items-center justify-center gap-2 rounded-2xl bg-blue-600 px-5 text-sm font-bold text-white shadow-lg shadow-blue-600/20 transition hover:bg-blue-700 active:scale-[0.99] sm:min-h-14"
                     >
                         Finish quiz
                         <i class="fa-solid fa-check"></i>
@@ -176,13 +162,9 @@
                 </div>
 
                 <p id="quiz-message"
-                   class="mt-4 text-center text-sm text-red-600"
+                   class="mt-3 text-center text-sm text-red-600"
                    role="alert"
                    aria-live="polite">
-                </p>
-
-                <p class="mt-3 text-center text-xs text-slate-400">
-                    Answer each question to continue.
                 </p>
 
             @endif
@@ -192,10 +174,5 @@
     </main>
 
 </div>
-
-@if(count($questions) > 0)
-
-
-@endif
 
 @endsection

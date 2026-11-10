@@ -51,10 +51,9 @@ Route::get('/profile', [ProfileController::class, 'index'])->name('profile.index
 
 
 
-use Illuminate\Support\Facades\DB;
-
-Route::get('/check-sessions', function () {
-    return response()->json(
-        DB::select('DESCRIBE sessions')
-    );
+Route::get('/check-vocab-count', function () {
+    return response()->json([
+        'vocabularies' => \App\Models\Vocabulary::count(),
+        'grammar' => \App\Models\Grammar::count(),
+    ]);
 });
